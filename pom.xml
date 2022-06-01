@@ -76,12 +76,12 @@
         <version.camel.sshd>2.0.0</version.camel.sshd>
 
         <!-- WildFly versions -->
-        <version.wildfly>20.0.0.Final</version.wildfly>
-        <version.wildfly.arquillian>2.2.0.Final</version.wildfly.arquillian>
-        <version.wildfly.cxf>3.3.6</version.wildfly.cxf>
-        <version.wildfly.fasterxml.jackson>2.10.4</version.wildfly.fasterxml.jackson>
-        <version.wildfly.hibernate>5.3.17.Final</version.wildfly.hibernate>
-        <version.wildfly.infinispan>10.1.8.Final</version.wildfly.infinispan>
+        <version.wildfly>26.1.1-1-PSI-RC-1</version.wildfly>
+        <version.wildfly.arquillian>3.0.1.Final</version.wildfly.arquillian>
+        <version.wildfly.cxf>3.4.5</version.wildfly.cxf>
+        <version.wildfly.fasterxml.jackson>2.12.6</version.wildfly.fasterxml.jackson>
+        <version.wildfly.hibernate>5.3.24.Final</version.wildfly.hibernate>
+        <version.wildfly.infinispan>13.0.10.Final</version.wildfly.infinispan>
 
         <!-- Other versions -->
         <version.apacheds.codec>2.0.0.AM1</version.apacheds.codec>
