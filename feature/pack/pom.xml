@@ -182,18 +182,6 @@
                             <source>${project.basedir}/scripts/module-checker.groovy</source>
                         </configuration>
                     </execution>
-                    <execution>
-                        <id>create-dist-dir</id>
-                        <goals>
-                            <goal>execute</goal>
-                        </goals>
-                        <phase>validate</phase>
-                        <configuration>
-                            <source>// workaround for https://issues.jboss.org/browse/GAL-261
-                              java.nio.file.Files.createDirectories(java.nio.file.Paths.get("${basedir}/target/wildfly-camel-9.2.0-SNAPSHOT"))
-                            </source>
-                        </configuration>
-                    </execution>
                 </executions>
             </plugin>
             <plugin>

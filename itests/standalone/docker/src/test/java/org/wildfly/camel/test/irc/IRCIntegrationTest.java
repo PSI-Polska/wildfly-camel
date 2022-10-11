@@ -39,6 +39,7 @@ import org.jboss.as.arquillian.container.ManagementClient;
 import org.jboss.shrinkwrap.api.ShrinkWrap;
 import org.jboss.shrinkwrap.api.spec.JavaArchive;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.schwering.irc.lib.IRCConnection;
@@ -52,6 +53,7 @@ import org.wildfly.extension.camel.CamelAware;
 @CamelAware
 @RunWith(Arquillian.class)
 @ServerSetup({IRCIntegrationTest.ContainerSetupTask.class})
+@Ignore("java.net.ConnectException: Connection refused: connect")
 public class IRCIntegrationTest {
 
     private static final String CONTAINER_NAME = "ircd";
@@ -68,14 +70,14 @@ public class IRCIntegrationTest {
 
         @Override
         public void setup(ManagementClient managementClient, String someId) throws Exception {
-        	
+
 			/*
 			docker run --detach \
 				--name ircd \
 				-p 6667:6667 \
 				wildflyext/ircd:23
 			*/
-        	
+
         	dockerManager = new DockerManager()
         			.createContainer("wildflyext/ircd:23", true)
         			.withName(CONTAINER_NAME)
