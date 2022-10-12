@@ -129,7 +129,7 @@ public class XmlSecurityIntegrationTest {
             String verifiedXml = producer.requestBody("direct:start", XML_PAYLOAD, String.class);
 
             // Make sure the XML was unsigned
-            Assert.assertEquals(XML_PAYLOAD, verifiedXml);
+            Assert.assertEquals(XML_PAYLOAD.replace("\n",""), verifiedXml.replace("\n",""));
         } finally {
             camelctx.close();
         }
