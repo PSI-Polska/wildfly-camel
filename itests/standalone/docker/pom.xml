@@ -62,10 +62,6 @@
         </dependency>
         <dependency>
             <groupId>org.apache.camel</groupId>
-            <artifactId>camel-etcd</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.camel</groupId>
             <artifactId>camel-influxdb</artifactId>
         </dependency>
         <dependency>
@@ -79,10 +75,6 @@
         <dependency>
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-nats</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.camel</groupId>
-            <artifactId>camel-nsq</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.camel</groupId>

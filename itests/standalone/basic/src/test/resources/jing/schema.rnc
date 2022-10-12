@@ -1,6 +1,0 @@
-default namespace = "http://org.wildfly.camel.test.jing"
-
-element order {
-  element sku { text },
-  element quantity { text }
-}

@@ -1,3 +1,0 @@
-### camel-ribbon
-
-The https://camel.apache.org/components/latest/ribbon.html[ribbon,window=_blank] component provides use of Netflix Ribbon for client side load balancing.

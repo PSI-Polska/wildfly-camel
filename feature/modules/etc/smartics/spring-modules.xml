@@ -104,7 +104,6 @@
         </properties>
         <include artifact=":spring-context" />
         <include artifact=":spring-context-support" />
-        <include artifact=":camel-spring-javaconfig" />
         <apply-to-dependencies skip="true">
             <include module="org.apache.camel.apt" />
             <include module="org.apache.camel.spring.main" />

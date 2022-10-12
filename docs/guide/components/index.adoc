@@ -10,43 +10,15 @@ include::camel-ahc-ws.adoc[]
 
 include::camel-amqp.adoc[]
 
-include::camel-apns.adoc[]
-
 include::camel-asterisk.adoc[]
 
 include::camel-atmosphere-websocket.adoc[]
 
 include::camel-atom.adoc[]
 
-include::camel-atomix.adoc[]
-
 include::camel-avro.adoc[]
 
-include::camel-aws-cw.adoc[]
-
-include::camel-aws-ddb.adoc[]
-
-include::camel-aws-ddbstream.adoc[]
-
-include::camel-aws-ec2.adoc[]
-
-include::camel-aws-kinesis.adoc[]
-
-include::camel-aws-s3.adoc[]
-
-include::camel-aws-sdb.adoc[]
-
-include::camel-aws-ses.adoc[]
-
-include::camel-aws-sns.adoc[]
-
-include::camel-aws-sqs.adoc[]
-
-include::camel-aws-swf.adoc[]
-
 include::camel-azure.adoc[]
-
-include::camel-beanstalk.adoc[]
 
 include::camel-bean-validator.adoc[]
 
@@ -78,8 +50,6 @@ include::camel-couchdb.adoc[]
 
 include::camel-crypto.adoc[]
 
-include::camel-crypto-cms.adoc[]
-
 include::camel-cxf.adoc[]
 
 include::camel-digitalocean.adoc[]
@@ -100,10 +70,6 @@ include::camel-ehcache.adoc[]
 
 include::camel-elasticsearch-rest.adoc[]
 
-include::camel-elsql.adoc[]
-
-include::camel-etcd.adoc[]
-
 include::camel-exec.adoc[]
 
 include::camel-facebook.adoc[]
@@ -115,8 +81,6 @@ include::camel-fop.adoc[]
 include::camel-freemarker.adoc[]
 
 include::camel-ftp.adoc[]
-
-include::camel-ganglia.adoc[]
 
 include::camel-geocoder.adoc[]
 
@@ -144,13 +108,9 @@ include::camel-hdfs.adoc[]
 
 include::camel-headersmap.adoc[]
 
-include::camel-hipchat.adoc[]
-
 include::camel-hl7.adoc[]
 
 include::camel-http4.adoc[]
-
-include::camel-hystrix.adoc[]
 
 include::camel-iec60870.adoc[]
 
@@ -177,8 +137,6 @@ include::camel-jcr.adoc[]
 include::camel-jdbc.adoc[]
 
 include::camel-jgroups.adoc[]
-
-include::camel-jing.adoc[]
 
 include::camel-jms.adoc[]
 
@@ -232,21 +190,15 @@ include::camel-mongodb-gridfs.adoc[]
 
 include::camel-mongodb.adoc[]
 
-include::camel-msv.adoc[]
-
 include::camel-mustache.adoc[]
 
 include::camel-mvel.adoc[]
 
 include::camel-mybatis.adoc[]
 
-include::camel-nagios.adoc[]
-
 include::camel-nats.adoc[]
 
 include::camel-netty.adoc[]
-
-include::camel-nsq.adoc[]
 
 include::camel-ognl.adoc[]
 
@@ -279,8 +231,6 @@ include::camel-rabbitmq.adoc[]
 include::camel-reactive-streams.adoc[]
 
 include::camel-reactor.adoc[]
-
-include::camel-ribbon.adoc[]
 
 include::camel-rest.adoc[]
 
@@ -318,15 +268,11 @@ include::camel-spring.adoc[]
 
 include::camel-spring-batch.adoc[]
 
-include::camel-spring-javaconfig.adoc[]
-
 include::camel-spring-ldap.adoc[]
 
 include::camel-spring-redis.adoc[]
 
 include::camel-spring-ws.adoc[]
-
-include::camel-sip.adoc[]
 
 include::camel-sjms.adoc[]
 
@@ -377,8 +323,6 @@ include::camel-xchange.adoc[]
 include::camel-xmpp.adoc[]
 
 include::camel-xstream.adoc[]
-
-include::camel-yammer.adoc[]
 
 include::camel-zendesk.adoc[]
 

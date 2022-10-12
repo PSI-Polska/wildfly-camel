@@ -1,3 +1,0 @@
-@NAME(dbusers)
-    SELECT name
-    FROM information_schema.users

@@ -1,3 +1,0 @@
-### camel-ganglia
-
-The https://camel.apache.org/components/latest/ganglia-component.html[Ganglia,window=_blank] component provides a mechanism to send a value (the message body) as a metric to the http://ganglia.info/[Ganglia,window=_blank] monitoring system.

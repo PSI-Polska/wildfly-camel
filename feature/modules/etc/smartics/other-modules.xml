@@ -101,204 +101,6 @@
         </dependencies>
     </module>
 
-    <module name="com.amazon.aws">
-        <properties>
-            <property name="jboss.api" value="private"/>
-        </properties>
-        <include artifact="com.amazonaws:aws-java-sdk-cloudwatch" />
-        <include artifact="com.amazonaws:aws-java-sdk-core" />
-        <include artifact="com.amazonaws:aws-java-sdk-dynamodb" />
-        <include artifact="com.amazonaws:aws-java-sdk-ec2" />
-        <include artifact="com.amazonaws:aws-java-sdk-kinesis" />
-        <include artifact="com.amazonaws:aws-java-sdk-s3" />
-        <include artifact="com.amazonaws:aws-java-sdk-ses" />
-        <include artifact="com.amazonaws:aws-java-sdk-simpledb" />
-        <include artifact="com.amazonaws:aws-java-sdk-simpleworkflow" />
-        <include artifact="com.amazonaws:aws-java-sdk-sns" />
-        <include artifact="com.amazonaws:aws-java-sdk-sqs" />
-        <include artifact="com.amazonaws:aws-java-sdk-swf-libraries" />
-        <include artifact="com.amazonaws:jmespath-java" />
-        <apply-to-dependencies skip="true">
-            <include module="com.amazon.aws.skipped" />
-            <include module="software.amazon.ion.ion-java" />
-        </apply-to-dependencies>
-        <dependencies>
-            <module name="javax.api" />
-            <module name="javax.xml.bind.api" />
-            <module name="com.fasterxml.jackson.core.jackson-annotations" />
-            <module name="com.fasterxml.jackson.core.jackson-core" />
-            <module name="com.fasterxml.jackson.dataformat.cbor" />
-        </dependencies>
-        <exports>
-            <exclude path="com/amazonaws/auth/internal**" />
-            <exclude path="com/amazonaws/auth/policy/internal**" />
-            <exclude path="com/amazonaws/auth/profile/internal**" />
-            <exclude path="com/amazonaws/internal**" />
-            <exclude path="com/amazonaws/metrics/internal**" />
-            <exclude path="com/amazonaws/monitoring/internal**" />
-            <exclude path="com/amazonaws/protocol/json/internal**" />
-            <exclude path="com/amazonaws/retry/internal**" />
-            <exclude path="com/amazonaws/services/dynamodbv2/document/internal**" />
-            <exclude path="com/amazonaws/services/s3/internal**" />
-            <exclude path="com/amazonaws/services/s3/transfer/internal**" />
-            <exclude path="com/amazonaws/services/s3control/internal**" />
-            <exclude path="com/amazonaws/services/simpledb/internal**" />
-            <exclude path="com/amazonaws/services/sqs/internal**" />
-        </exports>
-    </module>
-
-    <module name="com.amazon.aws.skipped" skip="true">
-        <include artifact="com.amazonaws:aws-java-sdk-acm" />
-        <include artifact="com.amazonaws:aws-java-sdk-acmpca" />
-        <include artifact="com.amazonaws:aws-java-sdk-alexaforbusiness" />
-        <include artifact="com.amazonaws:aws-java-sdk-apigatewaymanagementapi" />
-        <include artifact="com.amazonaws:aws-java-sdk-apigatewayv2" />
-        <include artifact="com.amazonaws:aws-java-sdk-api-gateway" />
-        <include artifact="com.amazonaws:aws-java-sdk-applicationautoscaling" />
-        <include artifact="com.amazonaws:aws-java-sdk-appmesh" />
-        <include artifact="com.amazonaws:aws-java-sdk-appstream" />
-        <include artifact="com.amazonaws:aws-java-sdk-appsync" />
-        <include artifact="com.amazonaws:aws-java-sdk-autoscaling" />
-        <include artifact="com.amazonaws:aws-java-sdk-autoscalingplans" />
-        <include artifact="com.amazonaws:aws-java-sdk-athena" />
-        <include artifact="com.amazonaws:aws-java-sdk-batch" />
-        <include artifact="com.amazonaws:aws-java-sdk-budgets" />
-        <include artifact="com.amazonaws:aws-java-sdk-chime" />
-        <include artifact="com.amazonaws:aws-java-sdk-cloud9" />
-        <include artifact="com.amazonaws:aws-java-sdk-clouddirectory" />
-        <include artifact="com.amazonaws:aws-java-sdk-cloudformation" />
-        <include artifact="com.amazonaws:aws-java-sdk-cloudhsm" />
-        <include artifact="com.amazonaws:aws-java-sdk-cloudhsmv2" />
-        <include artifact="com.amazonaws:aws-java-sdk-cloudsearch" />
-        <include artifact="com.amazonaws:aws-java-sdk-cloudtrail" />
-        <include artifact="com.amazonaws:aws-java-sdk-cloudwatchmetrics" />
-        <include artifact="com.amazonaws:aws-java-sdk-codebuild" />
-        <include artifact="com.amazonaws:aws-java-sdk-codecommit" />
-        <include artifact="com.amazonaws:aws-java-sdk-codedeploy" />
-        <include artifact="com.amazonaws:aws-java-sdk-codepipeline" />
-        <include artifact="com.amazonaws:aws-java-sdk-codestar" />
-        <include artifact="com.amazonaws:aws-java-sdk-cognitoidentity" />
-        <include artifact="com.amazonaws:aws-java-sdk-cognitoidp" />
-        <include artifact="com.amazonaws:aws-java-sdk-cognitosync" />
-        <include artifact="com.amazonaws:aws-java-sdk-comprehend" />
-        <include artifact="com.amazonaws:aws-java-sdk-comprehendmedical" />
-        <include artifact="com.amazonaws:aws-java-sdk-config" />
-        <include artifact="com.amazonaws:aws-java-sdk-connect" />
-        <include artifact="com.amazonaws:aws-java-sdk-costandusagereport" />
-        <include artifact="com.amazonaws:aws-java-sdk-costexplorer" />
-        <include artifact="com.amazonaws:aws-java-sdk-datapipeline" />
-        <include artifact="com.amazonaws:aws-java-sdk-datasync" />
-        <include artifact="com.amazonaws:aws-java-sdk-dax" />
-        <include artifact="com.amazonaws:aws-java-sdk-devicefarm" />
-        <include artifact="com.amazonaws:aws-java-sdk-directconnect" />
-        <include artifact="com.amazonaws:aws-java-sdk-directory" />
-        <include artifact="com.amazonaws:aws-java-sdk-discovery" />
-        <include artifact="com.amazonaws:aws-java-sdk-dlm" />
-        <include artifact="com.amazonaws:aws-java-sdk-dms" />
-        <include artifact="com.amazonaws:aws-java-sdk-docdb" />
-        <include artifact="com.amazonaws:aws-java-sdk-ecr" />
-        <include artifact="com.amazonaws:aws-java-sdk-ecs" />
-        <include artifact="com.amazonaws:aws-java-sdk-efs" />
-        <include artifact="com.amazonaws:aws-java-sdk-elasticache" />
-        <include artifact="com.amazonaws:aws-java-sdk-elasticbeanstalk" />
-        <include artifact="com.amazonaws:aws-java-sdk-elasticloadbalancing" />
-        <include artifact="com.amazonaws:aws-java-sdk-elasticloadbalancingv2" />
-        <include artifact="com.amazonaws:aws-java-sdk-elasticsearch" />
-        <include artifact="com.amazonaws:aws-java-sdk-elastictranscoder" />
-        <include artifact="com.amazonaws:aws-java-sdk-emr" />
-        <include artifact="com.amazonaws:aws-java-sdk-eks" />
-        <include artifact="com.amazonaws:aws-java-sdk-events" />
-        <include artifact="com.amazonaws:aws-java-sdk-fms" />
-        <include artifact="com.amazonaws:aws-java-sdk-fsx" />
-        <include artifact="com.amazonaws:aws-java-sdk-gamelift" />
-        <include artifact="com.amazonaws:aws-java-sdk-glacier" />
-        <include artifact="com.amazonaws:aws-java-sdk-globalaccelerator" />
-        <include artifact="com.amazonaws:aws-java-sdk-glue" />
-        <include artifact="com.amazonaws:aws-java-sdk-greengrass" />
-        <include artifact="com.amazonaws:aws-java-sdk-guardduty" />
-        <include artifact="com.amazonaws:aws-java-sdk-health" />
-        <include artifact="com.amazonaws:aws-java-sdk-iam" />
-        <include artifact="com.amazonaws:aws-java-sdk-importexport" />
-        <include artifact="com.amazonaws:aws-java-sdk-inspector" />
-        <include artifact="com.amazonaws:aws-java-sdk-iot" />
-        <include artifact="com.amazonaws:aws-java-sdk-iotanalytics" />
-        <include artifact="com.amazonaws:aws-java-sdk-iot1clickdevices" />
-        <include artifact="com.amazonaws:aws-java-sdk-iot1clickprojects" />
-        <include artifact="com.amazonaws:aws-java-sdk-iotjobsdataplane" />
-        <include artifact="com.amazonaws:aws-java-sdk-kafka" />
-        <include artifact="com.amazonaws:aws-java-sdk-kinesisanalyticsv2" />
-        <include artifact="com.amazonaws:aws-java-sdk-kinesisvideo" />
-        <include artifact="com.amazonaws:aws-java-sdk-kms" />
-        <include artifact="com.amazonaws:aws-java-sdk-lambda" />
-        <include artifact="com.amazonaws:aws-java-sdk-lex" />
-        <include artifact="com.amazonaws:aws-java-sdk-lexmodelbuilding" />
-        <include artifact="com.amazonaws:aws-java-sdk-licensemanager" />
-        <include artifact="com.amazonaws:aws-java-sdk-lightsail" />
-        <include artifact="com.amazonaws:aws-java-sdk-logs" />
-        <include artifact="com.amazonaws:aws-java-sdk-machinelearning" />
-        <include artifact="com.amazonaws:aws-java-sdk-macie" />
-        <include artifact="com.amazonaws:aws-java-sdk-marketplacecommerceanalytics" />
-        <include artifact="com.amazonaws:aws-java-sdk-marketplaceentitlement" />
-        <include artifact="com.amazonaws:aws-java-sdk-marketplacemeteringservice" />
-        <include artifact="com.amazonaws:aws-java-sdk-mechanicalturkrequester" />
-        <include artifact="com.amazonaws:aws-java-sdk-mediaconnect" />
-        <include artifact="com.amazonaws:aws-java-sdk-mediaconvert" />
-        <include artifact="com.amazonaws:aws-java-sdk-medialive" />
-        <include artifact="com.amazonaws:aws-java-sdk-mediapackage" />
-        <include artifact="com.amazonaws:aws-java-sdk-mediastore" />
-        <include artifact="com.amazonaws:aws-java-sdk-mediastoredata" />
-        <include artifact="com.amazonaws:aws-java-sdk-mediatailor" />
-        <include artifact="com.amazonaws:aws-java-sdk-migrationhub" />
-        <include artifact="com.amazonaws:aws-java-sdk-mobile" />
-        <include artifact="com.amazonaws:aws-java-sdk-models" />
-        <include artifact="com.amazonaws:aws-java-sdk-mq" />
-        <include artifact="com.amazonaws:aws-java-sdk-neptune" />
-        <include artifact="com.amazonaws:aws-java-sdk-opsworks" />
-        <include artifact="com.amazonaws:aws-java-sdk-opsworkscm" />
-        <include artifact="com.amazonaws:aws-java-sdk-organizations" />
-        <include artifact="com.amazonaws:aws-java-sdk-pi" />
-        <include artifact="com.amazonaws:aws-java-sdk-pinpoint" />
-        <include artifact="com.amazonaws:aws-java-sdk-pinpointemail" />
-        <include artifact="com.amazonaws:aws-java-sdk-pinpointsmsvoice" />
-        <include artifact="com.amazonaws:aws-java-sdk-polly" />
-        <include artifact="com.amazonaws:aws-java-sdk-pricing" />
-        <include artifact="com.amazonaws:aws-java-sdk-quicksight" />
-        <include artifact="com.amazonaws:aws-java-sdk-ram" />
-        <include artifact="com.amazonaws:aws-java-sdk-rds" />
-        <include artifact="com.amazonaws:aws-java-sdk-rdsdata" />
-        <include artifact="com.amazonaws:aws-java-sdk-redshift" />
-        <include artifact="com.amazonaws:aws-java-sdk-rekognition" />
-        <include artifact="com.amazonaws:aws-java-sdk-resourcegroups" />
-        <include artifact="com.amazonaws:aws-java-sdk-resourcegroupstaggingapi" />
-        <include artifact="com.amazonaws:aws-java-sdk-robomaker" />
-        <include artifact="com.amazonaws:aws-java-sdk-route53" />
-        <include artifact="com.amazonaws:aws-java-sdk-route53resolver" />
-        <include artifact="com.amazonaws:aws-java-sdk-s3control" />
-        <include artifact="com.amazonaws:aws-java-sdk-sagemaker" />
-        <include artifact="com.amazonaws:aws-java-sdk-sagemakerruntime" />
-        <include artifact="com.amazonaws:aws-java-sdk-secretsmanager" />
-        <include artifact="com.amazonaws:aws-java-sdk-securityhub" />
-        <include artifact="com.amazonaws:aws-java-sdk-serverlessapplicationrepository" />
-        <include artifact="com.amazonaws:aws-java-sdk-servermigration" />
-        <include artifact="com.amazonaws:aws-java-sdk-servicecatalog" />
-        <include artifact="com.amazonaws:aws-java-sdk-servicediscovery" />
-        <include artifact="com.amazonaws:aws-java-sdk-shield" />
-        <include artifact="com.amazonaws:aws-java-sdk-snowball" />
-        <include artifact="com.amazonaws:aws-java-sdk-ssm" />
-        <include artifact="com.amazonaws:aws-java-sdk-stepfunctions" />
-        <include artifact="com.amazonaws:aws-java-sdk-storagegateway" />
-        <include artifact="com.amazonaws:aws-java-sdk-sts" />
-        <include artifact="com.amazonaws:aws-java-sdk-support" />
-        <include artifact="com.amazonaws:aws-java-sdk-transcribe" />
-        <include artifact="com.amazonaws:aws-java-sdk-transfer" />
-        <include artifact="com.amazonaws:aws-java-sdk-translate" />
-        <include artifact="com.amazonaws:aws-java-sdk-waf" />
-        <include artifact="com.amazonaws:aws-java-sdk-workdocs" />
-        <include artifact="com.amazonaws:aws-java-sdk-workmail" />
-        <include artifact="com.amazonaws:aws-java-sdk-workspaces" />
-        <include artifact="com.amazonaws:aws-java-sdk-xray" />
-    </module>
-
     <module name="com.box">
         <properties>
             <property name="jboss.api" value="private"/>
@@ -725,19 +527,6 @@
         </dependencies>
     </module>
 
-    <module name="com.netflix.hystrix">
-        <properties>
-            <property name="jboss.api" value="private"/>
-        </properties>
-        <include artifact="com.netflix.hystrix:hystrix-core" />
-        <include artifact="com.netflix.hystrix:hystrix-metrics-event-stream" />
-        <include artifact="com.netflix.hystrix:hystrix-serialization" />
-        <include artifact="io.reactivex:rxjava" />
-        <apply-to-dependencies skip="true">
-            <include module="com.fasterxml.jackson.skipped" />
-        </apply-to-dependencies>
-    </module>
-
     <module name="com.netflix.netflix-commons">
         <properties>
             <property name="jboss.api" value="private"/>
@@ -748,36 +537,6 @@
             <include module="com.google.code.findbugs" />
         </apply-to-dependencies>
         <dependencies>
-            <module name="org.slf4j" />
-        </dependencies>
-    </module>
-
-    <module name="com.netflix.ribbon.ribbon-core">
-        <properties>
-            <property name="jboss.api" value="private"/>
-        </properties>
-        <include artifact="com.netflix.ribbon:ribbon-core" />
-        <apply-to-dependencies skip="true">
-            <include module="com.google.code.findbugs" />
-        </apply-to-dependencies>
-        <dependencies>
-            <module name="com.google.guava" slot="fuse"/>
-            <module name="org.apache.commons.configuration" />
-            <module name="org.apache.commons.lang" slot="fuse" />
-            <module name="org.slf4j" />
-        </dependencies>
-    </module>
-
-    <module name="com.netflix.ribbon.ribbon-loadbalancer">
-        <properties>
-            <property name="jboss.api" value="private"/>
-        </properties>
-        <include artifact="com.netflix.ribbon:ribbon-loadbalancer" />
-        <dependencies>
-            <module name="com.google.guava" slot="fuse"/>
-            <module name="com.netflix.netflix-commons" />
-            <module name="com.netflix.ribbon.ribbon-core" />
-            <module name="com.netflix.servo" />
             <module name="org.slf4j" />
         </dependencies>
     </module>
@@ -978,56 +737,6 @@
         <include artifact="edu.usc.ir:sentiment-analysis-parser" />
     </module>
 
-    <module name="info.ganglia.gmetric4j">
-        <properties>
-            <property name="jboss.api" value="private"/>
-        </properties>
-        <include artifact="info.ganglia.gmetric4j:gmetric4j" />
-        <include artifact="org.acplt.remotetea:remotetea-oncrpc" />
-    </module>
-
-    <module name="io.atomix">
-        <include artifact="io.atomix:atomix" />
-        <include artifact="io.atomix:atomix-collections" />
-        <include artifact="io.atomix:atomix-concurrent" />
-        <include artifact="io.atomix:atomix-groups" />
-        <include artifact="io.atomix:atomix-resource" />
-        <include artifact="io.atomix:atomix-resource-manager" />
-        <include artifact="io.atomix:atomix-variables" />
-        <include artifact="io.atomix.catalyst:catalyst-buffer" />
-        <include artifact="io.atomix.catalyst:catalyst-common" />
-        <include artifact="io.atomix.catalyst:catalyst-concurrent" />
-        <include artifact="io.atomix.catalyst:catalyst-local" />
-        <include artifact="io.atomix.catalyst:catalyst-netty" />
-        <include artifact="io.atomix.catalyst:catalyst-serializer" />
-        <include artifact="io.atomix.catalyst:catalyst-transport" />
-        <include artifact="io.atomix.copycat:copycat-client" />
-        <include artifact="io.atomix.copycat:copycat-protocol" />
-        <include artifact="io.atomix.copycat:copycat-server" />
-        <apply-to-dependencies skip="true">
-            <include module="io.netty.skipped" />
-        </apply-to-dependencies>
-        <dependencies>
-            <module name="io.netty" slot="fuse" />
-            <module name="sun.jdk">
-                <imports>
-                    <include path="sun/misc" />
-                </imports>
-            </module>
-        </dependencies>
-        <exports>
-            <exclude path="io/atomix/collections/internal" />
-            <exclude path="io/atomix/concurrent/internal" />
-            <exclude path="io/atomix/group/election/internal" />
-            <exclude path="io/atomix/group/internal" />
-            <exclude path="io/atomix/group/messaging/internal" />
-            <exclude path="io/atomix/manager/internal" />
-            <exclude path="io/atomix/manager/resource/internal" />
-            <exclude path="io/atomix/resource/internal" />
-            <exclude path="io/atomix/variables/internal" />
-        </exports>
-    </module>
-
     <module name="io.dropwizard.metrics">
         <include artifact="io.dropwizard.metrics:metrics-core" />
         <include artifact="io.dropwizard.metrics:metrics-jmx" />
@@ -1202,17 +911,6 @@
             <property name="jboss.api" value="private"/>
         </properties>
         <include artifact="net.i2p.crypto:eddsa" />
-    </module>
-
-    <module name="net.java.dev.msv">
-        <properties>
-            <property name="jboss.api" value="private"/>
-        </properties>
-        <include artifact="com.sun.xml.bind.jaxb:isorelax" />
-        <include artifact="net.java.dev.msv:msv-core" />
-        <include artifact="net.java.dev.msv:xsdlib" />
-        <include artifact="org.jopendocument:isorelax-jaxp-bridge-ILM" />
-        <include artifact="relaxngDatatype:relaxngDatatype" />
     </module>
 
     <module name="net.minidev.smart">
@@ -1920,16 +1618,6 @@
         <include artifact="org.cometd.java:cometd-java-common" />
     </module>
 
-    <module name="org.ccil.cowan.tagsoup">
-        <properties>
-            <property name="jboss.api" value="private"/>
-        </properties>
-        <include artifact="org.ccil.cowan.tagsoup:tagsoup" />
-        <dependencies>
-            <module name="javax.api" />
-        </dependencies>
-    </module>
-
     <module name="org.codehaus.groovy">
         <properties>
             <property name="jboss.api" value="private"/>
@@ -2290,7 +1978,7 @@
                     <path name="sun/reflect"/>
                 </paths>
             </system>
-        </dependencies>        
+        </dependencies>
     </module>
 
     <module name="org.opengis.geoapi">

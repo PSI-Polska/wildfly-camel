@@ -49,9 +49,8 @@
         <product.release.name>WildFly Camel</product.release.name>
 
         <!-- Camel versions -->
-        <version.apache.camel>3.4.0</version.apache.camel>
+        <version.apache.camel>3.18.0</version.apache.camel>
         <version.camel.apacheds>2.0.0.AM25</version.camel.apacheds>
-        <version.camel.apns>1.0.0.Beta6</version.camel.apns>
         <version.camel.bouncycastle>1.65</version.camel.bouncycastle>
         <version.camel.guava.cassandra>19.0</version.camel.guava.cassandra>
         <version.camel.guava.jcloud>18.0</version.camel.guava.jcloud>
@@ -104,10 +103,10 @@
         <version.osgi>5.0.0</version.osgi>
         <version.redis.embedded>0.6</version.redis.embedded>
 
-        <!-- 
+        <!--
         	Plugin versions
-        	
-        	mvn versions:display-plugin-updates 
+
+        	mvn versions:display-plugin-updates
         -->
         <version-asciidoctor-maven-plugin>1.5.7.1</version-asciidoctor-maven-plugin>
         <version-docker-maven-plugin>0.20.1</version-docker-maven-plugin>

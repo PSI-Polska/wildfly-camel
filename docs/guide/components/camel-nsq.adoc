@@ -1,3 +1,0 @@
-### camel-nsq
-
-The https://camel.apache.org/components/latest/nsq-component.html[nsq,window=_blank] component enables you to interact with the https://nsq.io/[NSQ,window=_blank] realtime distributed messaging platform.

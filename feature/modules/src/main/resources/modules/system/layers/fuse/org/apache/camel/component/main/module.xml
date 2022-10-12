@@ -26,19 +26,14 @@
         <module name="org.apache.camel.component.ahc" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.ahc-ws" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.amqp" export="true" services="export" optional="true" />
-        <module name="org.apache.camel.component.apns" export="true" services="export" optional="true"/>
         <module name="org.apache.camel.component.asn1" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.asterisk" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.atmosphere.websocket" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.atom" export="true" services="export" optional="true" />
-        <module name="org.apache.camel.component.atomix" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.avro" export="true" services="export" optional="true" />
-        <module name="org.apache.camel.component.aws" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.azure" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.barcode" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.base64" export="true" services="export" optional="true" />
-        <module name="org.apache.camel.component.beanio" export="true" services="export" optional="true" />
-        <module name="org.apache.camel.component.beanstalk" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.bean.validator" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.bindy" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.box" export="true" services="export" optional="true" />
@@ -78,8 +73,6 @@
         <module name="org.apache.camel.component.dropbox" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.ehcache" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.elasticsearch.rest" export="true" services="export" optional="true" />
-        <module name="org.apache.camel.component.elsql" export="true" services="export" optional="true" />
-        <module name="org.apache.camel.component.etcd" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.exec" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.facebook" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.fastjson" export="true" services="export" optional="true" />
@@ -88,7 +81,6 @@
         <module name="org.apache.camel.component.fop" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.freemarker" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.ftp" export="true" services="export" optional="true" />
-        <module name="org.apache.camel.component.ganglia" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.geocoder" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.git" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.github" export="true" services="export" optional="true" />
@@ -104,10 +96,8 @@
         <module name="org.apache.camel.component.hazelcast" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.hdfs" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.headersmap" export="true" services="export" optional="true" />
-        <module name="org.apache.camel.component.hipchat" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.hl7" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.http" export="true" services="export" optional="true" />
-        <module name="org.apache.camel.component.hystrix" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.ical" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.iec60870" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.infinispan" export="true" services="export" optional="true" />
@@ -124,7 +114,6 @@
         <module name="org.apache.camel.component.jcr" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.jdbc" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.jgroups" export="true" services="export" optional="true" />
-        <module name="org.apache.camel.component.jing" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.jms" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.jmx" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.johnzon" export="true" services="export" optional="true" />
@@ -157,14 +146,11 @@
         <module name="org.apache.camel.component.mongodb.gridfs" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.mongodb" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.mqtt" export="true" services="export" optional="true" />
-        <module name="org.apache.camel.component.msv" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.mustache" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.mvel" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.mybatis" export="true" services="export" optional="true" />
-        <module name="org.apache.camel.component.nagios" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.nats" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.netty" export="true" services="export" optional="true" />
-        <module name="org.apache.camel.component.nsq" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.ognl" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.olingo2" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.olingo4" export="true" services="export" optional="true" />
@@ -183,7 +169,6 @@
         <module name="org.apache.camel.component.reactive.streams" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.reactor" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.rest.swagger" export="true" services="export" optional="true" />
-        <module name="org.apache.camel.component.ribbon" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.rmi" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.rss" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.rxjava" export="true" services="export" optional="true" />
@@ -195,7 +180,6 @@
         <module name="org.apache.camel.component.servicenow" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.servlet" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.shiro" export="true" services="export" optional="true" />
-        <module name="org.apache.camel.component.sip" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.slack" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.smpp" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.snakeyaml" export="true" services="export" optional="true" />
@@ -247,7 +231,6 @@
         <module name="org.apache.camel.component.stringtemplate" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.swagger" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.syslog" export="true" services="export" optional="true" />
-        <module name="org.apache.camel.component.tagsoup" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.tarfile" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.telegram" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.thrift" export="true" services="export" optional="true" />
@@ -265,7 +248,6 @@
         <module name="org.apache.camel.component.xmlsecurity" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.xmpp" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.xstream" export="true" services="export" optional="true" />
-        <module name="org.apache.camel.component.yammer" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.zendesk" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.zipdeflater" export="true" services="export" optional="true" />
         <module name="org.apache.camel.component.zipfile" export="true" services="export" optional="true" />

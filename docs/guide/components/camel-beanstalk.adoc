@@ -1,3 +1,0 @@
-### camel-beanstalk
-
-The http://camel.apache.org/beanstalk.html[beanstalk,window=_blank] component provides a Camel component for job retrieval and post-processing of Beanstalk jobs.

@@ -4,7 +4,6 @@
     <property name="jboss.api" value="private" />
   </properties>
   <resources>
-    <artifact name="${org.apache.camel:camel-spring-javaconfig}" />
     <artifact name="${org.springframework:spring-context}" />
     <artifact name="${org.springframework:spring-context-support}" />
   </resources>

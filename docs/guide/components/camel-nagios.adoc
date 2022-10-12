@@ -1,3 +1,0 @@
-### camel-nagios
-
-The http://camel.apache.org/nagios.html[nagios,window=_blank] component allows you to send passive checks to https://www.nagios.org/[Nagios,window=_blank].

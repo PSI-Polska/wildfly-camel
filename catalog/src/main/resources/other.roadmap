@@ -3,7 +3,6 @@ attachments
 cdi
 cxf-transport
 headersmap
-hystrix                             #deprecated
 jasypt
 jta
 leveldb
@@ -11,10 +10,8 @@ lra
 microprofile-health
 opentracing
 reactor
-ribbon
 rxjava
 shiro
-spring-javaconfig
 spring-main
 spring-security
 swagger-java

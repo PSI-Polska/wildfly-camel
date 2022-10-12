@@ -1,3 +1,0 @@
-### camel-aws-swf
-
-The http://camel.apache.org/aws-swf.html[AWS Simple Workflow,window=_blank] component supports managing workflows from http://aws.amazon.com/swf[Amazon's Simple Workflow,window=_blank] service.
