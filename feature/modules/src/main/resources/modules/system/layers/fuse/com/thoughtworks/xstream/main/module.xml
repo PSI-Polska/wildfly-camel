@@ -9,7 +9,7 @@
   <dependencies>
     <module name="javax.api" />
     <module name="javax.xml.stream.api" />
+    <module name="io.github.x-stream.mxparser" />
     <module name="javax.xml.bind.api" />
-    <module name="xmlpull" />
   </dependencies>
 </module>

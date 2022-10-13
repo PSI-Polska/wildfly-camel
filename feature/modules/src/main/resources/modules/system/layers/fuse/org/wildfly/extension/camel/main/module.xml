@@ -54,6 +54,7 @@
     <module name="ibm.jdk.ext" export="true" />
     <module name="sun.jdk.ext" export="true" />
     <module name="javax.servlet.api" />
+    <module name="org.apache.activemq.activemq-all" />
     <module name="org.wildfly.extension.undertow" />
   </dependencies>
 </module>

@@ -16,6 +16,11 @@
     <module name="org.picketbox" />
     <module name="org.slf4j" />
     <module name="org.wildfly.security.elytron" />
+    <module name="org.apache.camel.camel-cxf-rest" />
+    <module name="org.apache.camel.camel-cxf-soap" />
+    <module name="org.apache.camel.camel-cxf-spring-rest" />
+    <module name="org.apache.camel.camel-cxf-spring-soap" />
+    <module name="org.apache.camel.camel-cxf-spring-transport" />
     <module name="org.wildfly.extension.camel" />
     <module name="org.wildfly.extension.undertow" />
   </dependencies>

@@ -25,10 +25,10 @@ import java.net.URI;
 
 import org.apache.camel.Consumer;
 import org.apache.camel.Processor;
-import org.apache.camel.component.cxf.CxfComponent;
-import org.apache.camel.component.cxf.CxfConsumer;
-import org.apache.camel.component.cxf.CxfEndpoint;
-import org.apache.camel.component.cxf.CxfSpringEndpoint;
+import org.apache.camel.component.cxf.jaxws.CxfComponent;
+import org.apache.camel.component.cxf.jaxws.CxfConsumer;
+import org.apache.camel.component.cxf.jaxws.CxfEndpoint;
+import org.apache.camel.component.cxf.spring.jaxws.CxfSpringEndpoint;
 
 /**
  * An extension to the {@link CxfComponent}
@@ -44,7 +44,7 @@ public class WildFlyCxfComponent extends CxfComponent {
     }
 
     @Override
-    protected CxfEndpoint createCxfSpringEndpoint(String beanId) throws Exception {
+    protected CxfEndpoint createCxfSpringEndpoint(String beanId) {
         return super.createCxfSpringEndpoint(beanId);
     }
 

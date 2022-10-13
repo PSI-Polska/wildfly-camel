@@ -15,6 +15,6 @@
     <module name="org.infinispan.client.hotrod" export="true" />
     <module name="org.infinispan.query.dsl" export="true" />
     <module name="org.slf4j" />
-    <module name="org.apache.camel.core" />
+    <module name="org.apache.camel.camel-infinispan-common" />
   </dependencies>
 </module>

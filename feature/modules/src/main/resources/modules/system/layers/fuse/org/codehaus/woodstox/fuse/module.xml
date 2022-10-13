@@ -5,7 +5,6 @@
   </properties>
   <resources>
     <artifact name="${org.codehaus.woodstox:stax2-api}" />
-    <artifact name="${org.codehaus.woodstox:woodstox-core-asl}" />
   </resources>
   <dependencies />
 </module>

@@ -44,10 +44,13 @@
     <module name="javax.api" />
     <module name="javax.activation.api" />
     <module name="javax.xml.bind.api" />
-    <module name="org.apache.camel.component.caffeine" services="import" />
     <module name="org.slf4j" />
     <module name="sun.jdk" />
-    <module name="org.apache.camel.component.cluster" />
+    <module name="org.apache.camel.camel-base-engine" />
+    <module name="org.apache.camel.camel-cluster" />
+    <module name="org.apache.camel.camel-core-model" />
+    <module name="org.apache.camel.camel-core-reifier" />
+    <module name="org.apache.camel.camel-xml-io-util" />
   </dependencies>
   <exports>
     <exclude path="org/apache/camel/impl/osgi**" />

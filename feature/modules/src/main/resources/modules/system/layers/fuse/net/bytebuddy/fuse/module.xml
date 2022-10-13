@@ -6,5 +6,9 @@
   <resources>
     <artifact name="${net.bytebuddy:byte-buddy}" />
   </resources>
-  <dependencies />
+  <dependencies>
+    <module name="com.google.code.findbugs.findbugs-annotations" />
+    <module name="net.java.dev.jna" />
+    <module name="net.java.dev.jna.jna-platform" />
+  </dependencies>
 </module>

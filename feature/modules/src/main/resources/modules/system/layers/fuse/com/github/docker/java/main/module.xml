@@ -15,10 +15,12 @@
     <module name="com.fasterxml.jackson.core.jackson-databind" />
     <module name="io.netty" slot="fuse" />
     <module name="javax.api" />
+    <module name="com.github.docker-java.docker-java-transport" />
+    <module name="com.google.code.findbugs.annotations" />
     <module name="com.google.guava" slot="fuse" />
     <module name="org.apache.commons.compress" />
     <module name="org.apache.commons.io" slot="fuse" />
-    <module name="org.apache.commons.lang" slot="fuse" />
+    <module name="org.apache.commons.lang3" slot="fuse" />
     <module name="org.bouncycastle" slot="fuse" />
     <module name="org.slf4j" />
   </dependencies>
