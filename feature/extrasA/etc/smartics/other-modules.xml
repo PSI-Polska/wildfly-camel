@@ -94,55 +94,13 @@
         </dependencies>
     </module>
 
-    <module name="org.apache.hadoop">
-        <properties>
-            <property name="jboss.api" value="private"/>
-        </properties>
-        <include artifact="org.apache.hadoop:hadoop-annotations" />
-        <include artifact="org.apache.hadoop:hadoop-auth" />
-        <include artifact="org.apache.hadoop:hadoop-common" />
-        <include artifact="org.apache.hadoop:hadoop-hdfs" />
-        <include artifact="org.apache.hadoop:hadoop-hdfs-client" />
-        <apply-to-dependencies skip="true">
-            <include module="ant" />
-            <include module="com.google.inject.skipped"/>
-            <include module="com.nimbusds"/>
-            <include module="com.sun.jersey.skipped" />
-            <include module="com.google.code.findbugs" />
-            <include module="com.google.re2j" />
-            <include module="dnsjava" />
-            <include module="io.netty.skipped" />
-            <include module="jdiff" />
-            <include module="jdk.tools" />
-            <include module="net.java.dev.jets3t" />
-            <include module="org.apache.camel.component.protobuf" />
-            <include module="org.apache.commons.daemon" />
-            <include module="org.apache.directory.server" />
-            <include module="org.apache.hadoop.skipped" />
-            <include module="org.apache.kerby" />
-            <include module="org.eclipse.jetty.skipped" />
-            <include module="org.fusesource.leveldbjni.all" />
-            <include module="org.mortbay.jetty" />
-        </apply-to-dependencies>
-        <dependencies>
-            <module name="com.google.protobuf" slot="2.5" />
-            <module name="sun.jdk.ext" />
-            <!--  
-            <module name="org.apache.commons.configuration" />
-            <module name="org.apache.commons.net" />
-            <module name="ibm.jdk.ext" />
-            <module name="javax.api" />
-            -->
-        </dependencies>
-    </module>
-
 	<module name="org.apache.htrace">
         <properties>
             <property name="jboss.api" value="private"/>
         </properties>
         <include artifact="org.apache.htrace:htrace-core4" />
 	</module>
-	
+
     <module name="org.apache.jackrabbit" >
         <properties>
             <property name="jboss.api" value="private"/>

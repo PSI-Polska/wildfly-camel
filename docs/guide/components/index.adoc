@@ -104,8 +104,6 @@ include::camel-guava-eventbus.adoc[]
 
 include::camel-hazelcast.adoc[]
 
-include::camel-hdfs.adoc[]
-
 include::camel-headersmap.adoc[]
 
 include::camel-hl7.adoc[]

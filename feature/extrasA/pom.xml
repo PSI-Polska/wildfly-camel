@@ -41,18 +41,8 @@
     <dependencies>
         <dependency>
             <groupId>org.apache.camel</groupId>
-            <artifactId>camel-hdfs</artifactId>
-            <version>${version.apache.camel}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.camel</groupId>
             <artifactId>camel-jcr</artifactId>
             <version>${version.apache.camel}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.hadoop</groupId>
-            <artifactId>hadoop-mapreduce-client-core</artifactId>
-            <version>${version.camel.hadoop2}</version>
         </dependency>
         <dependency>
             <groupId>org.wildfly.camel</groupId>

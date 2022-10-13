@@ -2073,16 +2073,6 @@
         <include artifact="org.tukaani:xz" />
     </module>
 
-    <module name="org.xerial.snappy">
-        <properties>
-            <property name="jboss.api" value="private"/>
-        </properties>
-        <include artifact="org.xerial.snappy:snappy-java" />
-        <apply-to-dependencies skip="true">
-            <include module="org.osgi.core" />
-        </apply-to-dependencies>
-    </module>
-
     <module name="xmlpull">
         <properties>
             <property name="jboss.api" value="private"/>

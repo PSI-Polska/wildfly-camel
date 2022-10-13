@@ -77,7 +77,6 @@ hazelcast-ringbuffer
 hazelcast-seda
 hazelcast-set
 hazelcast-topic
-hdfs                                                #deprecated
 http                                                #deprecated
 https                                               #deprecated
 imap

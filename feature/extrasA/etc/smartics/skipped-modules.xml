@@ -215,16 +215,9 @@
     <module name="com.google.re2j" skip="true">
         <include artifact="com.google.re2j:re2j" />
     </module>
-    
+
     <module name="dnsjava" skip="true">
         <include artifact="dnsjava:dnsjava" />
     </module>
-    
-    <module name="org.apache.hadoop.skipped" skip="true">
-        <include artifact="org.apache.hadoop:hadoop-mapreduce-client-core"/>
-        <include artifact="org.apache.hadoop:hadoop-yarn-api"/>
-        <include artifact="org.apache.hadoop:hadoop-yarn-client"/>
-        <include artifact="org.apache.hadoop:hadoop-yarn-common"/>
-    </module>
-    
+
 </modules>
