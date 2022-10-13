@@ -54,10 +54,6 @@
         </apply-to-dependencies>
     </module>
 
-    <module name="javax.jcr" >
-        <include artifact="javax.jcr:jcr" />
-    </module>
-
     <module name="org.apache.commons.configuration2">
         <properties>
             <property name="jboss.api" value="private"/>
@@ -100,30 +96,6 @@
         </properties>
         <include artifact="org.apache.htrace:htrace-core4" />
 	</module>
-
-    <module name="org.apache.jackrabbit" >
-        <properties>
-            <property name="jboss.api" value="private"/>
-        </properties>
-        <include artifact="org.apache.jackrabbit:jackrabbit-api" />
-        <include artifact="org.apache.jackrabbit:jackrabbit-core" />
-        <include artifact="org.apache.jackrabbit:jackrabbit-data" />
-        <include artifact="org.apache.jackrabbit:jackrabbit-jcr-commons" />
-        <include artifact="org.apache.jackrabbit:jackrabbit-spi" />
-        <include artifact="org.apache.jackrabbit:jackrabbit-spi-commons" />
-        <include artifact="org.apache.jackrabbit:oak-jackrabbit-api" />
-        <include artifact="concurrent:concurrent" />
-        <apply-to-dependencies skip="true">
-            <include module="biz.aQute" />
-            <include module="com.google.code.findbugs" />
-            <include module="org.jetbrains.annotations" />
-            <include module="org.osgi.annotation" />
-        </apply-to-dependencies>
-        <dependencies>
-            <module name="javax.api" />
-            <module name="org.apache.lucene" slot="3.6"/>
-        </dependencies>
-    </module>
 
     <module name="org.apache.lucene" inherit-slot="false" slot="3.6">
         <include artifact=":lucene-core" />

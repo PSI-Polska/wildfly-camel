@@ -1393,16 +1393,6 @@ javax/cache/integration
 javax/cache/management
 javax/cache/processor
 javax/cache/spi
-javax/jcr
-javax/jcr/lock
-javax/jcr/nodetype
-javax/jcr/observation
-javax/jcr/query
-javax/jcr/query/qom
-javax/jcr/retention
-javax/jcr/security
-javax/jcr/util
-javax/jcr/version
 javax/sdp
 mousio/client
 mousio/client/exceptions
@@ -1732,7 +1722,6 @@ org/apache/camel/component/jcache/processor
 org/apache/camel/component/jcache/processor/aggregate
 org/apache/camel/component/jcache/processor/idempotent
 org/apache/camel/component/jclouds
-org/apache/camel/component/jcr
 org/apache/camel/component/jdbc
 org/apache/camel/component/jgroups
 org/apache/camel/component/jgroups/cluster

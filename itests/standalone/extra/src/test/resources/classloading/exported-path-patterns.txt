@@ -51,7 +51,6 @@
     ^io/undertow/client(.*)
 	^io/vertx/core(.*)
     ^javax/cache(.*)
-    ^javax/jcr(.*)
     ^javax/sdp(.*)
     ^mousio(.*)
 	^net/fortuna/ical4j(.*)

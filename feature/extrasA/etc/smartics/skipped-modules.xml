@@ -106,9 +106,9 @@
         <include artifact="com.google.guava:guava" />
     </module>
 
-    <module name="com.rometools.rome" slot="1.0" skip="true">
+    <!--module name="com.rometools.rome" slot="1.0" skip="true">
         <include artifact="rome:rome" />
-    </module>
+    </module-->
 
     <module name="io.netty" slot="3.10" skip="true">
         <include artifact="io.netty:netty" />
