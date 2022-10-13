@@ -6,5 +6,7 @@
   <resources>
     <artifact name="${com.squareup.okio:okio}" />
   </resources>
-  <dependencies />
+  <dependencies>
+    <module name="com.google.code.findbugs.jsr305" />
+  </dependencies>
 </module>

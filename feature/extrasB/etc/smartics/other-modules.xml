@@ -48,6 +48,13 @@
         </dependencies>
     </module>
 
+    <module name="com.fasterxml.jackson.dataformat.yaml">
+        <properties>
+            <property name="jboss.api" value="private"/>
+        </properties>
+        <include artifact=":jackson-dataformat-yaml" />
+    </module>
+
     <module name="org.elasticsearch">
         <properties>
             <property name="jboss.api" value="private"/>

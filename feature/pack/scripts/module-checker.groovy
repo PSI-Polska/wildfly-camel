@@ -237,7 +237,6 @@ def smarticsFilesPrefix = properties.get("wildfly-camel-feature-pack.basedir") +
 def smarticsDirectories = [
     "${smarticsFilesPrefix}common/etc/smartics",
     "${smarticsFilesPrefix}modules/etc/smartics",
-    "${smarticsFilesPrefix}extrasA/etc/smartics",
     "${smarticsFilesPrefix}extrasB/etc/smartics",
     "${smarticsFilesPrefix}extrasC/etc/smartics",
     "${smarticsFilesPrefix}extrasD/etc/smartics"

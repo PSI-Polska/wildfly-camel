@@ -6,11 +6,6 @@
   <resources>
     <artifact name="${org.apache.cxf:cxf-rt-frontend-jaxrs}" />
     <artifact name="${org.apache.cxf:cxf-rt-rs-client}" />
-    <artifact name="${org.apache.cxf:cxf-rt-rs-extension-providers}" />
-    <artifact name="${org.apache.cxf:cxf-rt-rs-json-basic}" />
-    <artifact name="${org.apache.cxf:cxf-rt-rs-security-jose}" />
-    <artifact name="${org.apache.cxf:cxf-rt-rs-security-jose-jaxrs}" />
-    <artifact name="${org.apache.cxf:cxf-rt-rs-security-oauth2}" />
   </resources>
   <dependencies>
     <module name="javax.api" />
@@ -20,14 +15,15 @@
     <module name="org.codehaus.jettison" slot="fuse" />
     <module name="org.springframework.beans" />
     <module name="org.springframework.context" />
+    <module name="jakarta.annotation.jakarta.annotation-api" />
+    <module name="jakarta.jws.jakarta.jws-api" />
+    <module name="jakarta.xml.soap.jakarta.xml.soap-api" />
+    <module name="jakarta.xml.ws.jakarta.xml.ws-api" />
     <module name="javax.activation.api" />
-    <module name="javax.annotation.api" />
-    <module name="javax.orb.api" />
-    <module name="javax.rmi.api" />
     <module name="javax.transaction.api" />
-    <module name="javax.xml.ws.api" />
     <module name="org.apache.cxf" />
     <module name="org.apache.cxf.impl" />
+    <module name="org.osgi.org.osgi.core" />
   </dependencies>
   <exports>
     <exclude path="net/oauth*" />

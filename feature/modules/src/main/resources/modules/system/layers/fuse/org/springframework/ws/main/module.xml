@@ -12,6 +12,7 @@
     <module name="org.apache.commons.logging" />
     <module name="org.springframework.context" />
     <module name="org.springframework.core" />
+    <module name="com.sun.mail.javax.mail" />
     <module name="javax.jms.api" />
     <module name="javax.mail.api" />
     <module name="javax.servlet.api" />
@@ -19,6 +20,7 @@
     <module name="org.springframework.beans" />
     <module name="org.springframework.jms" />
     <module name="org.springframework.oxm" />
+    <module name="org.springframework.spring-webmvc" />
     <module name="org.springframework.web" />
   </dependencies>
 </module>

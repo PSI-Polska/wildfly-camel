@@ -9,8 +9,6 @@
     <artifact name="${org.apache.lucene:lucene-join}" />
     <artifact name="${org.apache.lucene:lucene-memory}" />
     <artifact name="${org.apache.lucene:lucene-queries}" />
-    <artifact name="${org.apache.lucene:lucene-queryparser}" />
-    <artifact name="${org.apache.lucene:lucene-sandbox}" />
     <artifact name="${org.apache.lucene:lucene-spatial}" />
     <artifact name="${org.apache.lucene:lucene-suggest}" />
   </resources>

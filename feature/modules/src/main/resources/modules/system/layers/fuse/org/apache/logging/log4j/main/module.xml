@@ -4,5 +4,7 @@
     <artifact name="${org.apache.logging.log4j:log4j-api}" />
     <artifact name="${org.apache.logging.log4j:log4j-core}" />
   </resources>
-  <dependencies />
+  <dependencies>
+    <module name="org.osgi.org.osgi.core" />
+  </dependencies>
 </module>

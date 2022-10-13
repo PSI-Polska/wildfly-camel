@@ -37,10 +37,10 @@
     </module>
     <module name="com.carrotsearch.hppc" />
     <module name="com.fasterxml.jackson.core.jackson-core" />
-    <module name="com.fasterxml.jackson.dataformat.cbor" />
+    <module name="com.fasterxml.jackson.dataformat.jackson-dataformat-cbor" />
+    <module name="com.fasterxml.jackson.dataformat.jackson-dataformat-yaml" />
     <module name="com.fasterxml.jackson.dataformat.smile" />
-    <module name="com.fasterxml.jackson.dataformat.yaml" />
-    <module name="com.github.spullara.mustache" slot="fuse" />
+    <module name="com.github.spullara.mustache.java.compiler" />
     <module name="org.apache.commons.codec" slot="fuse" />
     <module name="org.apache.commons.logging" slot="fuse" />
     <module name="org.apache.httpcomponents" slot="fuse" />

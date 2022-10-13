@@ -163,13 +163,6 @@
         </dependencies>
     </module>
 
-    <module name="com.fasterxml.jackson.dataformat.yaml">
-        <properties>
-            <property name="jboss.api" value="private"/>
-        </properties>
-        <include artifact=":jackson-dataformat-yaml" />
-    </module>
-
     <module name="com.fasterxml.jackson.datatype.guava">
         <properties>
             <property name="jboss.api" value="private"/>
@@ -2071,16 +2064,6 @@
             <property name="jboss.api" value="private"/>
         </properties>
         <include artifact="org.tukaani:xz" />
-    </module>
-
-    <module name="org.xerial.snappy">
-        <properties>
-            <property name="jboss.api" value="private"/>
-        </properties>
-        <include artifact="org.xerial.snappy:snappy-java" />
-        <apply-to-dependencies skip="true">
-            <include module="org.osgi.core" />
-        </apply-to-dependencies>
     </module>
 
     <module name="xmlpull">

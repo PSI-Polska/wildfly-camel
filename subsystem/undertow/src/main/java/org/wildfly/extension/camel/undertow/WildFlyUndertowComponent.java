@@ -49,8 +49,14 @@ public class WildFlyUndertowComponent extends UndertowComponent {
     }
 
     @Override
-    protected UndertowEndpoint createEndpointInstance(URI endpointUri, UndertowComponent component) throws URISyntaxException {
-        return new WildFlyUndertowEndpoint(endpointUri.toString(), component);
+    protected UndertowEndpoint createEndpointInstance(URI endpointUri, UndertowComponent component) {
+        try {
+            return new WildFlyUndertowEndpoint(endpointUri.toString(), component);
+        } catch (URISyntaxException aE) {
+            LOGGER.error("Bad URI: {}", endpointUri);
+            LOGGER.error(aE.getMessage());
+            return null;
+        }
     }
 
     @Override

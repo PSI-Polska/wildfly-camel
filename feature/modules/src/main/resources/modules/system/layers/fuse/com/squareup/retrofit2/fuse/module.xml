@@ -4,16 +4,13 @@
     <property name="jboss.api" value="private" />
   </properties>
   <resources>
-    <artifact name="${com.squareup.retrofit2:converter-gson}" />
     <artifact name="${com.squareup.retrofit2:converter-jackson}" />
-    <artifact name="${com.squareup.retrofit2:converter-moshi}" />
     <artifact name="${com.squareup.retrofit2:retrofit}" />
   </resources>
   <dependencies>
     <module name="com.squareup.okio" />
     <module name="com.fasterxml.jackson.core.jackson-databind" />
-    <module name="com.google.code.gson" slot="fuse" />
-    <module name="com.squareup.moshi" />
+    <module name="com.google.code.findbugs.jsr305" />
     <module name="com.squareup.okhttp3" slot="fuse" />
   </dependencies>
 </module>

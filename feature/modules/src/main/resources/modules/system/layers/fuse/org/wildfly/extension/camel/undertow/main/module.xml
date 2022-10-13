@@ -13,6 +13,11 @@
     <module name="io.undertow.core" />
     <module name="io.undertow.servlet" />
     <module name="org.slf4j" />
+    <module name="org.apache.camel.camel-cxf-rest" />
+    <module name="org.apache.camel.camel-cxf-soap" />
+    <module name="org.apache.camel.camel-cxf-spring-rest" />
+    <module name="org.apache.camel.camel-cxf-spring-soap" />
+    <module name="org.apache.camel.camel-cxf-spring-transport" />
     <module name="org.apache.camel.component.cxf" />
     <module name="org.apache.camel.component.undertow" />
     <module name="org.wildfly.extension.camel" />

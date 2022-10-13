@@ -63,6 +63,11 @@
         <include artifact=":undertow-servlet" />
     </module>
 
+    <module name="javax.api" skip="true">
+        <include artifact=":javax.api" />
+        <include artifact=":jakarta.api" />
+    </module>
+
     <module name="javax.activation.api" skip="true">
         <include artifact=":activation" />
         <include artifact=":javax.activation" />
@@ -154,7 +159,7 @@
     <module name="javax.rmi.api" skip="true">
         <include artifact=":jboss-rmi-api_1.0_spec" />
     </module>
-    
+
     <module name="javax.security.auth.message.api" skip="true">
         <include artifact=":jboss-jaspi-api_1.1_spec" />
     </module>

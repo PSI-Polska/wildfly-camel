@@ -60,12 +60,6 @@
         </dependency>
         <dependency>
             <groupId>org.wildfly.camel</groupId>
-            <artifactId>wildfly-camel-feature-extrasA</artifactId>
-            <version>${project.version}</version>
-            <type>zip</type>
-        </dependency>
-        <dependency>
-            <groupId>org.wildfly.camel</groupId>
             <artifactId>wildfly-camel-feature-extrasB</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
@@ -105,11 +99,6 @@
                                 <resolve-local>
                                     <groupId>org.wildfly.camel</groupId>
                                     <artifactId>wildfly-camel-feature-modules</artifactId>
-                                    <version>${project.version}</version>
-                                </resolve-local>
-                                <resolve-local>
-                                    <groupId>org.wildfly.camel</groupId>
-                                    <artifactId>wildfly-camel-feature-extrasA</artifactId>
                                     <version>${project.version}</version>
                                 </resolve-local>
                                 <resolve-local>

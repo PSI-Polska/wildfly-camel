@@ -12,6 +12,7 @@
     <module name="org.springframework.aop" export="true" />
     <module name="org.springframework.batch" optional="true" />
     <module name="org.apache.commons.logging" slot="fuse" />
+    <module name="org.springframework.spring-jcl" />
   </dependencies>
   <exports>
     <exclude path="org/springframework/cglib/core/internal" />

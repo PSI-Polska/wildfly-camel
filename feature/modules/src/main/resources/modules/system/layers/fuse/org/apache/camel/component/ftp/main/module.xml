@@ -6,7 +6,7 @@
   <dependencies>
     <module name="javax.api" />
     <module name="org.slf4j" />
-    <module name="com.jcraft.jsch" slot="fuse" />
+    <module name="com.github.mwiede.jsch" />
     <module name="org.apache.camel.core" />
     <module name="org.apache.commons.net" />
   </dependencies>

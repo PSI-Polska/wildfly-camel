@@ -10,6 +10,7 @@
   </resources>
   <dependencies>
     <module name="javax.api" />
+    <module name="com.zaxxer.HikariCP-java7" />
     <module name="org.slf4j" />
   </dependencies>
   <exports>

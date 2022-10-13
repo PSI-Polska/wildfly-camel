@@ -9,6 +9,7 @@
     <module name="com.fasterxml.jackson.core.jackson-databind" />
     <module name="com.fasterxml.jackson.datatype.guava" />
     <module name="com.fasterxml.jackson.datatype.jackson-datatype-jdk8" />
+    <module name="com.google.code.findbugs.jsr305" />
     <module name="com.google.guava" slot="fuse" />
     <module name="com.squareup.okhttp3" slot="fuse" />
     <module name="com.squareup.retrofit2" slot="fuse" />

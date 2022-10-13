@@ -1,42 +1,71 @@
 [supported]
 attachments
 cdi
-cxf-transport
-headersmap
-jasypt
-jta
-leveldb
-lra
+cloud
+cluster
+console
+health
+main
 microprofile-health
-opentracing
-reactor
-rxjava
-shiro
 spring-main
 spring-security
-swagger-java
-zipkin
+spring-xml
+test-junit5
 
 [planned]
 
 [undecided]
 aws-xray
+caffeine-lrucache                   #deprecated
+cdi-jta
+cdi-main
+cloudevents
+componentdsl
+csimple-joor
+debug
+dsl-modeline
+dsl-support
+elytron
+endpointdsl
+etcd3
+groovy-dsl
+headersmap
+jasypt
+java-joor-dsl
+jfr
+js-dsl
+jsh-dsl
+jta
+kamelet-main
+kotlin-dsl
+leveldb
+lra
+management
 microprofile-config
 microprofile-fault-tolerance
 openapi-java
+opentelemetry
+opentracing                         #deprecated
 platform-http-vertx
+reactive-executor-tomcat
 reactive-executor-vertx
+reactor
+redis
 resilience4j
-testcontainers-junit5
-testcontainers-spring-junit5
+resourceresolver-github
+rxjava
+shiro
+swagger-java
+threadpoolfactory-vertx
+tracing
 undertow-spring-security
+xml-io-dsl
+xml-jaxb-dsl
+yaml-dsl
+zipkin
 
 [rejected]
-test                                #2052 Testing utility
-test-cdi
-test-junit5
-test-spring                         #2056 Testing utility
+test-cdi                            #deprecated
+test-spring                         #deprecated
 test-spring-junit5
-testcontainers
-testcontainers-spring
 
