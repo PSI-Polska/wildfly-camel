@@ -4,6 +4,8 @@
     <property name="jboss.api" value="private" />
   </properties>
   <resources>
+    <artifact name="${com.fasterxml.jackson.jaxrs:jackson-jaxrs-base}" />
+    <artifact name="${com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider}" />
     <artifact name="${com.fasterxml.jackson.module:jackson-module-jaxb-annotations}" />
   </resources>
   <dependencies>
@@ -12,5 +14,6 @@
     <module name="com.fasterxml.jackson.core.jackson-core" />
     <module name="com.fasterxml.jackson.core.jackson-databind" />
     <module name="javax.activation.api" />
+    <module name="javax.ws.rs.api" />
   </dependencies>
 </module>

@@ -16,5 +16,7 @@
     <module name="org.infinispan.query.dsl" export="true" />
     <module name="org.slf4j" />
     <module name="org.apache.camel.camel-infinispan-common" />
+    <module name="org.infinispan.infinispan-remote-query-client" />
+    <module name="org.infinispan.protostream.protostream-processor" />
   </dependencies>
 </module>

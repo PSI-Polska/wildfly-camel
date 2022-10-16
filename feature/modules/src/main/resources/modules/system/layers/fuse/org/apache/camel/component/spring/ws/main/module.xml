@@ -15,5 +15,6 @@
     <module name="org.apache.camel.camel-xslt-saxon" />
     <module name="org.apache.camel.core" />
     <module name="org.apache.camel.spring" />
+    <module name="org.springframework.spring-webmvc" />
   </dependencies>
 </module>

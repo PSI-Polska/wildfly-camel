@@ -1,25 +1,29 @@
 [supported]
 bean
 constant
+csimple
 exchangeProperty
 file
-groovy
 header
-hl7terser
 jsonpath
-mvel
-ognl
 ref
 simple
 spel
 tokenize
 xpath
-xquery
 xtokenize
 
 [planned]
 
 [undecided]
+datasonnet
+groovy
+hl7terser
+joor
+jq
+mvel
+ognl
+xquery
 
 [rejected]
 

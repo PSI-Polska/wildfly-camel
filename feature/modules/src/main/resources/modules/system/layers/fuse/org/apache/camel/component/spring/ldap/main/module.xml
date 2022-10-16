@@ -8,5 +8,7 @@
     <module name="org.apache.commons.lang" slot="fuse" />
     <module name="org.springframework.ldap" export="true" />
     <module name="org.apache.camel.core" />
+    <module name="org.springframework.ldap.spring-ldap-ldif-core" />
+    <module name="org.springframework.ldap.spring-ldap-odm" />
   </dependencies>
 </module>

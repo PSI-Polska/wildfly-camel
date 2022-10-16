@@ -9,6 +9,7 @@
   <dependencies>
     <module name="javax.api" />
     <module name="com.google.guava" slot="fuse" />
+    <module name="com.github.spotbugs.spotbugs-annotations" />
     <module name="org.slf4j" />
   </dependencies>
   <exports>

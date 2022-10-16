@@ -5,7 +5,9 @@
   </resources>
   <dependencies>
     <module name="org.slf4j" />
+    <module name="org.apache.camel.camel-allcomponents" />
     <module name="org.apache.camel.camel-core-all" />
+    <module name="org.apache.camel.camel-tooling-model" />
     <module name="org.apache.camel.core" />
   </dependencies>
 </module>

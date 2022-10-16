@@ -9,5 +9,7 @@
   <dependencies>
     <module name="com.google.code.findbugs.jsr305" />
     <module name="com.squareup.okio" />
+    <module name="org.codehaus.mojo.animal-sniffer-annotations" />
+    <module name="org.conscrypt.conscrypt-openjdk-uber" />
   </dependencies>
 </module>

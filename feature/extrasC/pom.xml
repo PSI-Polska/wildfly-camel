@@ -53,12 +53,6 @@
 
         <dependency>
             <groupId>org.wildfly.camel</groupId>
-            <artifactId>wildfly-camel-feature-extrasA</artifactId>
-            <version>${project.version}</version>
-            <type>zip</type>
-        </dependency>
-        <dependency>
-            <groupId>org.wildfly.camel</groupId>
             <artifactId>wildfly-camel-feature-extrasB</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
@@ -93,10 +87,6 @@
                         <exclude>
                             <groupId>org.osgi</groupId>
                             <artifactId>osgi_R4_core</artifactId>
-                        </exclude>
-                        <exclude>
-                            <groupId>org.wildfly.camel</groupId>
-                            <artifactId>wildfly-camel-feature-extrasA</artifactId>
                         </exclude>
                         <exclude>
                             <groupId>org.wildfly.camel</groupId>

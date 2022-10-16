@@ -41,8 +41,4 @@
         <include artifact="org.apache.camel:camel-util" />
     </module>
 
-	<!-- =========================================================== -->
-	<!--          modules defined in features/extrasA                -->
-	<!-- =========================================================== -->
-
 </modules>

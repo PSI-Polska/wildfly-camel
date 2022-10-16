@@ -28,9 +28,9 @@
 	<!--          modules defined in wildfly-alternatives            -->
 	<!-- =========================================================== -->
 
-    <module name="com.github.spullara.mustache" slot="fuse" skip="true">
+    <!--module name="com.github.spullara.mustache" slot="fuse" skip="true">
         <include artifact="com.github.spullara.mustache.java:compiler" />
-    </module>
+    </module-->
 
     <module name="org.joda.time" slot="fuse" skip="true">
         <include artifact=":joda-time" />
@@ -60,13 +60,13 @@
         <include artifact="com.carrotsearch:hppc" />
     </module>
 
-    <module name="com.fasterxml.jackson.dataformat.cbor" skip="true">
+    <!--module name="com.fasterxml.jackson.dataformat.cbor" skip="true">
         <include artifact=":jackson-dataformat-cbor" />
-    </module>
+    </module-->
 
-    <module name="com.fasterxml.jackson.dataformat.yaml" skip="true">
+    <!--module name="com.fasterxml.jackson.dataformat.yaml" skip="true">
         <include artifact=":jackson-dataformat-yaml" />
-    </module>
+    </module-->
 
     <module name="com.fasterxml.jackson.jr" skip="true">
         <include artifact=":jackson-jr-objects" />

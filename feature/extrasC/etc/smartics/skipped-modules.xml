@@ -38,8 +38,4 @@
         <include artifact="org.apache.camel:camel-xml-jaxp" />
     </module>
 
-	<!-- =========================================================== -->
-	<!--          modules defined in features/extrasA                -->
-	<!-- =========================================================== -->
-
 </modules>

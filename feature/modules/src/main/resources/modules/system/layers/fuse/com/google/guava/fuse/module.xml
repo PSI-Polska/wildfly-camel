@@ -9,6 +9,10 @@
   </resources>
   <dependencies>
     <module name="com.google.code.findbugs.jsr305" />
+    <module name="com.google.errorprone.error_prone_annotations" />
+    <module name="com.google.j2objc.j2objc-annotations" />
+    <module name="org.checkerframework.checker-qual" />
+    <module name="org.codehaus.mojo.animal-sniffer-annotations" />
   </dependencies>
   <exports>
     <exclude path="com/google/common/util/concurrent/internal" />

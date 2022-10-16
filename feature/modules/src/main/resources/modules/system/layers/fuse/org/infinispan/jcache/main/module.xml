@@ -16,6 +16,9 @@
     <module name="javax.enterprise.api" />
     <module name="org.infinispan" />
     <module name="org.infinispan.commons" />
+    <module name="org.infinispan.infinispan-component-annotations" />
+    <module name="org.infinispan.infinispan-component-processor" />
+    <module name="org.infinispan.protostream.protostream-processor" />
     <module name="org.jboss.logging.jboss-logging-processor" />
   </dependencies>
 </module>

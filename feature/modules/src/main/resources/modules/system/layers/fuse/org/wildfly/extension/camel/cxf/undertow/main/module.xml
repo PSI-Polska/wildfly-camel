@@ -4,7 +4,6 @@
     <artifact name="${org.wildfly.camel:wildfly-camel-cxf-undertow}" />
   </resources>
   <dependencies>
-    <module name="javax.api" />
     <module name="javax.servlet.api" />
     <module name="io.undertow.core" />
     <module name="io.undertow.servlet" />
@@ -16,6 +15,7 @@
     <module name="org.picketbox" />
     <module name="org.slf4j" />
     <module name="org.wildfly.security.elytron" />
+    <module name="javax.api" />
     <module name="org.apache.camel.camel-cxf-rest" />
     <module name="org.apache.camel.camel-cxf-soap" />
     <module name="org.apache.camel.camel-cxf-spring-rest" />

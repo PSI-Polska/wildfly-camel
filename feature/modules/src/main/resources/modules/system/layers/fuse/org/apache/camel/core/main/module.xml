@@ -50,6 +50,7 @@
     <module name="org.apache.camel.camel-cluster" />
     <module name="org.apache.camel.camel-core-model" />
     <module name="org.apache.camel.camel-core-reifier" />
+    <module name="org.apache.camel.camel-tooling-model" />
     <module name="org.apache.camel.camel-xml-io-util" />
   </dependencies>
   <exports>

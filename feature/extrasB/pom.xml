@@ -40,6 +40,12 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.wildfly.camel</groupId>
+            <artifactId>wildfly-camel-feature-modules</artifactId>
+            <version>${project.version}</version>
+            <type>zip</type>
+        </dependency>
+        <dependency>
             <groupId>com.fasterxml.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-smile</artifactId>
             <version>${version.wildfly.fasterxml.jackson}</version>
@@ -66,16 +72,22 @@
             <version>${version.apache.camel}</version>
         </dependency>
         <dependency>
-            <groupId>org.wildfly.camel</groupId>
-            <artifactId>wildfly-camel-feature-extrasA</artifactId>
-            <version>${project.version}</version>
+            <groupId>org.wildfly.core</groupId>
+            <artifactId>wildfly-core-galleon-pack</artifactId>
+            <version>12.0.1.Final</version>
             <type>zip</type>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.apache.lucene</groupId>
-                    <artifactId>*</artifactId>
-                </exclusion>
-            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.wildfly</groupId>
+            <artifactId>wildfly-galleon-pack</artifactId>
+            <version>20.0.0.Final</version>
+            <type>zip</type>
+        </dependency>
+        <dependency>
+            <groupId>org.wildfly.camel</groupId>
+            <artifactId>wildfly-camel-feature-modules</artifactId>
+            <version>12.0.1-PSI-SNAPSHOT</version>
+            <type>zip</type>
         </dependency>
     </dependencies>
 
@@ -107,10 +119,6 @@
                         <exclude>
                             <groupId>org.apache.logging.log4j</groupId>
                             <artifactId>log4j-api-java9</artifactId>
-                        </exclude>
-                        <exclude>
-                            <groupId>org.wildfly.camel</groupId>
-                            <artifactId>wildfly-camel-feature-extrasA</artifactId>
                         </exclude>
                     </dependencyExcludes>
                 </configuration>
