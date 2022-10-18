@@ -1,6 +1,7 @@
 [supported]
 bean
 constant
+csimple
 exchangeProperty
 file
 groovy
@@ -20,6 +21,9 @@ xtokenize
 [planned]
 
 [undecided]
+datasonnet
+joor
+jq
 
 [rejected]
 

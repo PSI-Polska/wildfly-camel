@@ -181,7 +181,6 @@ def allowedDuplicateArtifacts = [
     "com.googlecode.javaewah:JavaEWAH",
     "com.google.code.gson:gson",
     "com.jcraft:jsch",
-    "com.microsoft.azure:azure-storage",
     "com.squareup.okhttp3:okhttp",
     "com.squareup.okio:okio",
     "commons-beanutils:commons-beanutils",

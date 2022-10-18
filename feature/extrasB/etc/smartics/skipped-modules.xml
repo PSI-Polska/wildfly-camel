@@ -60,9 +60,9 @@
         <include artifact="com.carrotsearch:hppc" />
     </module>
 
-    <module name="com.fasterxml.jackson.dataformat.cbor" skip="true">
+    <!--module name="com.fasterxml.jackson.dataformat.cbor" skip="true">
         <include artifact=":jackson-dataformat-cbor" />
-    </module>
+    </module-->
 
     <module name="com.fasterxml.jackson.dataformat.yaml" skip="true">
         <include artifact=":jackson-dataformat-yaml" />

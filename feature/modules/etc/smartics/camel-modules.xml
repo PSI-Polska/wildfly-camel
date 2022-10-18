@@ -205,18 +205,6 @@
         </exports>
     </module>
 
-    <module name="org.apache.camel.component.atmosphere.websocket">
-        <include artifact="org.apache.camel:camel-atmosphere-websocket"/>
-        <apply-to-dependencies skip="true">
-            <include module="org.apache.camel.apt"/>
-            <include module="org.springframework.boot"/>
-        </apply-to-dependencies>
-        <dependencies>
-            <module name="org.apache.camel.component.http.common"/>
-            <module name="org.slf4j"/>
-        </dependencies>
-    </module>
-
     <module name="org.apache.camel.component.atom">
         <include artifact="org.apache.camel:camel-atom" />
         <apply-to-dependencies skip="true">
@@ -242,22 +230,6 @@
                 <exports>
                     <exclude path="org/apache/avro/util/internal" />
                     <exclude path="avro/shaded**" />
-                </exports>
-            </module>
-            <module name="org.slf4j" />
-        </dependencies>
-    </module>
-
-    <module name="org.apache.camel.component.azure">
-        <include artifact="org.apache.camel:camel-azure" />
-        <apply-to-dependencies skip="true">
-            <include module="org.apache.camel.apt" />
-            <include module="org.springframework.boot" />
-        </apply-to-dependencies>
-        <dependencies>
-            <module name="com.microsoft.azure.storage" export="true" slot="fuse">
-                <exports>
-                    <exclude path="com/microsoft" />
                 </exports>
             </module>
             <module name="org.slf4j" />
@@ -832,27 +804,6 @@
         <exports>
             <exclude path="net/sf**" />
         </exports>
-    </module>
-
-    <module name="org.apache.camel.component.fop">
-        <include artifact="org.apache.camel:camel-fop" />
-        <apply-to-dependencies skip="true">
-            <include module="org.apache.camel.apt" />
-            <include module="org.springframework.boot" />
-        </apply-to-dependencies>
-        <dependencies>
-            <module name="javax.api"/>
-            <module name="org.apache.xmlgraphics" export="true">
-                <exports>
-                    <exclude path="org/apache/batik**" />
-                    <exclude path="org/apache/fop/servlet**" />
-                    <exclude path="org/apache/fop/tools**" />
-                    <exclude path="org/apache/xmlgraphics/image/writer/internal**" />
-                    <exclude path="org/w3c**" />
-                </exports>
-            </module>
-            <module name="org.slf4j" />
-        </dependencies>
     </module>
 
     <module name="org.apache.camel.component.freemarker">
@@ -2309,19 +2260,6 @@
         </exports>
     </module>
 
-    <module name="org.apache.camel.component.shiro">
-        <include artifact="org.apache.camel:camel-shiro" />
-        <apply-to-dependencies skip="true">
-            <include module="org.apache.camel.apt" />
-            <include module="org.springframework.boot" />
-        </apply-to-dependencies>
-        <dependencies>
-            <module name="javax.api"/>
-            <module name="org.apache.shiro" export="true" />
-            <module name="org.slf4j"/>
-        </dependencies>
-    </module>
-
     <module name="org.apache.camel.component.sjms">
         <include artifact="org.apache.camel:camel-sjms" />
         <apply-to-dependencies skip="true">
@@ -2798,18 +2736,6 @@
             <exclude path="io/vertx" />
             <exclude path="vertx-core/template" />
         </exports>
-    </module>
-
-    <module name="org.apache.camel.component.weather">
-        <include artifact="org.apache.camel:camel-weather" />
-        <apply-to-dependencies skip="true">
-            <include module="org.apache.camel.apt" />
-            <include module="org.springframework.boot" />
-        </apply-to-dependencies>
-        <dependencies>
-            <module name="org.apache.commons.httpclient" export="true" />
-            <module name="org.slf4j"/>
-        </dependencies>
     </module>
 
     <module name="org.apache.camel.component.webhook">

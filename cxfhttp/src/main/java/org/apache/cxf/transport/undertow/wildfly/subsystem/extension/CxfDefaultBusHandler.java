@@ -20,12 +20,10 @@
 
 package org.apache.cxf.transport.undertow.wildfly.subsystem.extension;
 
-import java.util.Collection;
-
 import org.apache.camel.CamelContext;
 import org.apache.camel.Endpoint;
 import org.apache.camel.Route;
-import org.apache.camel.component.cxf.CxfComponent;
+import org.apache.camel.component.cxf.jaxws.CxfComponent;
 import org.apache.camel.component.cxf.jaxrs.CxfRsEndpoint;
 import org.apache.camel.spi.LifecycleStrategy;
 import org.apache.camel.support.LifecycleStrategySupport;
@@ -34,6 +32,8 @@ import org.apache.cxf.BusFactory;
 import org.apache.cxf.transport.http.HttpDestinationFactory;
 import org.apache.cxf.transport.undertow.UndertowDestinationFactory;
 import org.wildfly.extension.camel.ContextCreateHandler;
+
+import java.util.Collection;
 
 /**
  * A {@link ContextCreateHandler} taking care for each newly created {@link CxfRsEndpoint} to have its {@link Bus} set

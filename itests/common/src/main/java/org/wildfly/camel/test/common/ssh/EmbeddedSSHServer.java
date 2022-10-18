@@ -29,6 +29,7 @@ import java.util.Arrays;
 import org.apache.sshd.server.Environment;
 import org.apache.sshd.server.ExitCallback;
 import org.apache.sshd.server.SshServer;
+import org.apache.sshd.server.channel.ChannelSession;
 import org.apache.sshd.server.command.Command;
 import org.apache.sshd.server.command.CommandFactory;
 import org.apache.sshd.server.keyprovider.SimpleGeneratorHostKeyProvider;
@@ -61,9 +62,9 @@ public class EmbeddedSSHServer {
         this.homeDir = homeDir;
 
         if (EnvironmentUtils.isWindows()) {
-            sshServer.setShellFactory(new ProcessShellFactory(new String[] { "cmd.exe " }));
+            sshServer.setShellFactory(new ProcessShellFactory( "cmd.exe " ));
         } else {
-            sshServer.setShellFactory(new ProcessShellFactory(new String[] { "/bin/sh", "-i", "-s" }));
+            sshServer.setShellFactory(new ProcessShellFactory( "/bin/sh", "-i", "-s" ));
         }
     }
 
@@ -133,9 +134,8 @@ public class EmbeddedSSHServer {
     }
 
     private static final class EchoCommandFactory implements CommandFactory {
-
         @Override
-        public Command createCommand(String command) {
+        public Command createCommand(ChannelSession channel, String command) throws IOException {
             return new EchoCommand(command);
         }
     }
@@ -172,7 +172,7 @@ public class EmbeddedSSHServer {
         }
 
         @Override
-        public void start(Environment env) throws IOException {
+        public void start(ChannelSession channel, Environment env) throws IOException {
             this.thread = new Thread(this, "EchoCommand");
             this.thread.start();
         }
@@ -198,7 +198,7 @@ public class EmbeddedSSHServer {
         }
 
         @Override
-        public void destroy() throws Exception {
+        public void destroy(ChannelSession channel) throws Exception {
             thread.interrupt();
         }
     }

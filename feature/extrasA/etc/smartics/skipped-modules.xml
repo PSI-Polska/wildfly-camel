@@ -32,9 +32,9 @@
         <include artifact="com.google.code.gson:gson" />
     </module>
 
-    <module name="com.jcraft.jsch" slot="fuse" skip="true">
+    <!--module name="com.jcraft.jsch" slot="fuse" skip="true">
         <include artifact="com.jcraft:jsch" />
-    </module>
+    </module-->
 
     <module name="io.netty" slot="fuse" skip="true">
         <include artifact="io.netty:netty-all" />
@@ -110,15 +110,15 @@
         <include artifact="rome:rome" />
     </module>
 
-    <module name="io.netty" slot="3.10" skip="true">
+    <!--module name="io.netty" slot="3.10" skip="true">
         <include artifact="io.netty:netty" />
-    </module>
+    </module-->
 
-    <module name="net.minidev.smart" skip="true">
+    <!--module name="net.minidev.smart" skip="true">
         <include artifact="net.minidev:accessors-smart" />
         <include artifact="net.minidev:json-smart-action" />
         <include artifact="net.minidev:json-smart" />
-    </module>
+    </module-->
 
     <module name="org.apache.camel.core" skip="true">
         <include artifact="org.apache.camel:camel-api" />
@@ -148,9 +148,9 @@
         <include artifact="commons.net:commons.net" />
     </module>
 
-    <module name="org.apache.commons.pool" skip="true">
+    <!--module name="org.apache.commons.pool" skip="true">
         <include artifact="commons-pool:commons-pool" />
-    </module>
+    </module-->
 
     <module name="org.apache.curator" skip="true">
         <include artifact="org.apache.curator:curator-client" />
@@ -203,10 +203,10 @@
         <include artifact="org.fusesource.leveldbjni:leveldbjni-all" />
     </module>
 
-    <module name="org.osgi.core" skip="true">
+    <!--module name="org.osgi.core" skip="true">
         <include artifact=":org.osgi.core" />
         <include artifact="org.osgi:core" />
-    </module>
+    </module-->
 
 	<!-- =========================================================== -->
 	<!--          modules skipped here                               -->
@@ -215,16 +215,16 @@
     <module name="com.google.re2j" skip="true">
         <include artifact="com.google.re2j:re2j" />
     </module>
-    
+
     <module name="dnsjava" skip="true">
         <include artifact="dnsjava:dnsjava" />
     </module>
-    
+
     <module name="org.apache.hadoop.skipped" skip="true">
         <include artifact="org.apache.hadoop:hadoop-mapreduce-client-core"/>
         <include artifact="org.apache.hadoop:hadoop-yarn-api"/>
         <include artifact="org.apache.hadoop:hadoop-yarn-client"/>
         <include artifact="org.apache.hadoop:hadoop-yarn-common"/>
     </module>
-    
+
 </modules>

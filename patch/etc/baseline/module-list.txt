@@ -92,7 +92,6 @@
 /com/impossibl/pgjdbc/main/spy-0.8.4.jar
 /com/jayway/jsonpath/main/json-path-2.4.0.jar
 /com/jcraft/jsch/fuse/jsch-0.1.54.jar
-/com/microsoft/azure/storage/fuse/azure-storage-6.1.0.jar
 /com/netflix/archaius/archaius-core/main/archaius-core-0.7.6.jar
 /com/netflix/netflix-commons/main/netflix-commons-util-0.1.1.jar
 /com/netflix/netflix-commons/main/netflix-statistics-0.1.1.jar
@@ -206,10 +205,8 @@
 /org/apache/camel/component/asn1/main/jasn1-1.11.3.jar
 /org/apache/camel/component/asterisk/main/asterisk-java-1.0.0-final.jar
 /org/apache/camel/component/asterisk/main/camel-asterisk-3.4.0.jar
-/org/apache/camel/component/atmosphere/websocket/main/camel-atmosphere-websocket-3.4.0.jar
 /org/apache/camel/component/atom/main/camel-atom-3.4.0.jar
 /org/apache/camel/component/avro/main/camel-avro-3.4.0.jar
-/org/apache/camel/component/azure/main/camel-azure-3.4.0.jar
 /org/apache/camel/component/barcode/main/camel-barcode-3.4.0.jar
 /org/apache/camel/component/barcode/main/core-3.4.0.jar
 /org/apache/camel/component/barcode/main/javase-3.4.0.jar
@@ -389,7 +386,6 @@
 /org/apache/camel/component/schematron/main/camel-schematron-3.4.0.jar
 /org/apache/camel/component/servicenow/main/camel-servicenow-3.4.0.jar
 /org/apache/camel/component/servlet/main/camel-servlet-3.4.0.jar
-/org/apache/camel/component/shiro/main/camel-shiro-3.4.0.jar
 /org/apache/camel/component/sjms/main/camel-sjms-3.4.0.jar
 /org/apache/camel/component/sjms2/main/camel-sjms2-3.4.0.jar
 /org/apache/camel/component/slack/main/camel-slack-3.4.0.jar
@@ -636,15 +632,6 @@
 /org/apache/qpid/main/qpid-jms-client-0.52.0.jar
 /org/apache/qpid/proton/fuse/proton-j-0.33.5.jar
 /org/apache/santuario/xmlsec/fuse/xmlsec-2.1.4.jar
-/org/apache/shiro/main/shiro-cache-1.5.3.jar
-/org/apache/shiro/main/shiro-config-core-1.5.3.jar
-/org/apache/shiro/main/shiro-config-ogdl-1.5.3.jar
-/org/apache/shiro/main/shiro-core-1.5.3.jar
-/org/apache/shiro/main/shiro-crypto-cipher-1.5.3.jar
-/org/apache/shiro/main/shiro-crypto-core-1.5.3.jar
-/org/apache/shiro/main/shiro-crypto-hash-1.5.3.jar
-/org/apache/shiro/main/shiro-event-1.5.3.jar
-/org/apache/shiro/main/shiro-lang-1.5.3.jar
 /org/apache/sis/core/main/sis-feature-1.0.jar
 /org/apache/sis/core/main/sis-metadata-1.0.jar
 /org/apache/sis/core/main/sis-referencing-1.0.jar
@@ -686,7 +673,6 @@
 /org/asynchttpclient/main/async-http-client-2.12.1.jar
 /org/asynchttpclient/main/async-http-client-netty-utils-2.12.1.jar
 /org/asynchttpclient/main/netty-reactive-streams-2.0.4.jar
-/org/atmosphere/main/atmosphere-runtime-2.5.15.jar
 /org/bitbucket/jose4j/fuse/jose4j-0.7.0.jar
 /org/bouncycastle/fuse/bcmail-jdk15on-1.65.jar
 /org/bouncycastle/fuse/bcpg-jdk15on-1.65.jar

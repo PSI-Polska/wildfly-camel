@@ -115,16 +115,6 @@
         <include artifact="com.jcraft:jsch" />
     </module>
 
-    <module name="com.microsoft.azure.storage" inherit-slot="false" slot="fuse">
-        <properties>
-            <property name="jboss.api" value="private"/>
-        </properties>
-        <include artifact="com.microsoft.azure:azure-storage" />
-        <apply-to-dependencies skip="true">
-            <include module="com.microsoft.azure.keyvault" />
-        </apply-to-dependencies>
-    </module>
-
     <module name="io.netty" inherit-slot="false" slot="fuse">
         <properties>
             <property name="jboss.api" value="private"/>

@@ -1,5 +1,0 @@
-### camel-azure
-
-The https://camel.apache.org/components/latest/azure-blob-component.html[azure-blob,window=_blank] component supports storing and retrieving the blobs to/from https://azure.microsoft.com/services/storage/blobs/[Azure Storage Blob,window=_blank] service.
-
-The https://camel.apache.org/components/latest/azure-queue-component.html[azure-queue,window=_blank] component supports storing and retrieving the messages to/from https://azure.microsoft.com/services/storage/queues/[Azure Storage Queue,window=_blank] service.

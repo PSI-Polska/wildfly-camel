@@ -25,7 +25,6 @@
     ^com/hazelcast(.*)
     ^com/ibm/as400(.*)
     ^com/lmax/disruptor(.*)
-    ^com/microsoft/azure(.*)
     ^com/mongodb(.*)
 	^com/ning/compress(.*)
 	^com/notnoop(.*)
@@ -74,7 +73,6 @@
 	^org/apache/kafka(.*)
 	^org/apache/lucene(.*)
     ^org/apache/olingo(.*)
-    ^org/apache/shiro(.*)
     ^org/apache/solr(.*)
     ^org/apache/sshd
     ^org/apache/tika(.*)

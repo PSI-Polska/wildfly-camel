@@ -1,5 +1,4 @@
-
-## Azure
+## Box
 
 ## Box
 
@@ -33,8 +32,6 @@ export GOOGLE_API_APPLICATION_NAME="Fuse WFC Testsuite"
 export GOOGLE_API_CLIENT_ID=101xxx.apps.googleusercontent.com
 export GOOGLE_API_CLIENT_SECRET=xxx
 export GOOGLE_API_REFRESH_TOKEN=xxx
-
-## Openweather
 
 ## Salesforce
 

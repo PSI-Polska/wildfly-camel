@@ -12,13 +12,9 @@ include::camel-amqp.adoc[]
 
 include::camel-asterisk.adoc[]
 
-include::camel-atmosphere-websocket.adoc[]
-
 include::camel-atom.adoc[]
 
 include::camel-avro.adoc[]
-
-include::camel-azure.adoc[]
 
 include::camel-bean-validator.adoc[]
 
@@ -75,8 +71,6 @@ include::camel-exec.adoc[]
 include::camel-facebook.adoc[]
 
 include::camel-file2.adoc[]
-
-include::camel-fop.adoc[]
 
 include::camel-freemarker.adoc[]
 
@@ -254,8 +248,6 @@ include::camel-servicenow.adoc[]
 
 include::camel-servlet.adoc[]
 
-include::camel-shiro.adoc[]
-
 include::camel-slack.adoc[]
 
 include::camel-smpp.adoc[]
@@ -313,8 +305,6 @@ include::camel-undertow.adoc[]
 include::camel-velocity.adoc[]
 
 include::camel-vertx.adoc[]
-
-include::camel-weather.adoc[]
 
 include::camel-wordpress.adoc[]
 
