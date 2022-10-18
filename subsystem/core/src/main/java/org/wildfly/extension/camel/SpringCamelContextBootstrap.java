@@ -26,7 +26,7 @@ import java.util.Collections;
 import java.util.List;
 
 import org.apache.camel.spring.SpringCamelContext;
-import org.apache.camel.spring.handler.CamelNamespaceHandler;
+import org.apache.camel.spring.xml.handler.CamelNamespaceHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.MutablePropertyValues;

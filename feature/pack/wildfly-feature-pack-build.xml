@@ -25,9 +25,6 @@
         <dependency group-id="org.wildfly.camel" artifact-id="wildfly-camel-feature-modules">
             <name>org.wildfly.camel:wildfly-camel-feature-modules</name>
         </dependency>
-        <dependency group-id="org.wildfly.camel" artifact-id="wildfly-camel-feature-extrasA">
-            <name>org.wildfly.camel:wildfly-camel-feature-extrasA</name>
-        </dependency>
         <dependency group-id="org.wildfly.camel" artifact-id="wildfly-camel-feature-extrasB">
             <name>org.wildfly.camel:wildfly-camel-feature-extrasB</name>
         </dependency>

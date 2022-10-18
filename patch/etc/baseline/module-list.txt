@@ -35,9 +35,6 @@
 /com/fasterxml/jackson/datatype/guava/main/jackson-datatype-guava-2.10.4.jar
 /com/fasterxml/jackson/datatype/jackson-datatype-jsr310/fuse/jackson-datatype-jsr310-2.10.4.jar
 /com/fasterxml/jackson/datatype/joda/main/jackson-datatype-joda-2.10.4.jar
-/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/fuse/jackson-jaxrs-base-2.10.4.jar
-/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/fuse/jackson-jaxrs-json-provider-2.10.4.jar
-/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/fuse/jackson-module-jaxb-annotations-2.10.4.jar
 /com/fasterxml/jackson/jr/main/jackson-jr-objects-2.10.4.jar
 /com/fasterxml/jackson/module/afterburner/main/jackson-module-afterburner-2.10.4.jar
 /com/fasterxml/jackson/module/jsonSchema/main/jackson-module-jsonSchema-2.10.4.jar

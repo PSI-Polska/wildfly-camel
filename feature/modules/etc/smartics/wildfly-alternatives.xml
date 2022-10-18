@@ -44,18 +44,6 @@
         <include artifact=":jackson-datatype-jsr310" />
     </module>
 
-    <module name="com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider" inherit-slot="false" slot="fuse">
-        <properties>
-            <property name="jboss.api" value="private"/>
-        </properties>
-        <include artifact=":jackson-jaxrs-base" />
-        <include artifact=":jackson-jaxrs-json-provider" />
-        <include artifact=":jackson-module-jaxb-annotations" />
-        <dependencies>
-            <module name="javax.xml.bind.api" />
-        </dependencies>
-    </module>
-
     <module name="com.github.ben-manes.caffeine" inherit-slot="false" slot="fuse">
         <properties>
             <property name="jboss.api" value="private"/>
