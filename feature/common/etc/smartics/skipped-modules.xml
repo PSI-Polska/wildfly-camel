@@ -86,6 +86,14 @@
         <include artifact="com.github.docker-java:docker-java-transport-jersey"/>
     </module-->
 
+    <module name="org.glassfish.jakarta.json" skip="true">
+        <include artifact="org.glassfish:jakarta.json" />
+    </module>
+
+    <module name="org.jboss.resteasy.resteasy-jaxrs" skip="true">
+        <include artifact="org.jboss.resteasy:resteasy-jaxrs" />
+    </module>
+
     <module name="com.github.jai-imageio" skip="true">
         <include artifact="com.github.jai-imageio:(.*)" />
     </module>

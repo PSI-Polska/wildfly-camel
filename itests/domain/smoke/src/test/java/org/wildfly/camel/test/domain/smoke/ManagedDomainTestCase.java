@@ -22,6 +22,7 @@ import org.jboss.arquillian.junit.Arquillian;
 import org.jboss.shrinkwrap.api.ShrinkWrap;
 import org.jboss.shrinkwrap.api.spec.WebArchive;
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.wildfly.arquillian.domain.api.TargetsServerGroup;
@@ -33,6 +34,7 @@ import org.wildfly.arquillian.domain.api.TargetsServerGroup;
  * @author <a href="mailto:aslak@redhat.com">Aslak Knutsen</a>
  */
 @RunWith(Arquillian.class)
+@Ignore
 public class ManagedDomainTestCase {
 
     @Deployment(name = "dep1")
