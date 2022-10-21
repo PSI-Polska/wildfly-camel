@@ -75,7 +75,6 @@
         <!-- WildFly versions -->
         <version.wildfly>20.0.0.Final</version.wildfly>
         <version.wildfly.arquillian>2.2.0.Final</version.wildfly.arquillian>
-        <version.wildfly.cxf>3.3.6</version.wildfly.cxf>
         <version.wildfly.fasterxml.jackson>2.10.4</version.wildfly.fasterxml.jackson>
         <version.wildfly.hibernate>5.3.17.Final</version.wildfly.hibernate>
         <version.wildfly.infinispan>10.1.8.Final</version.wildfly.infinispan>
@@ -154,7 +153,6 @@
         <module>bom</module>
         <module>common</module>
         <module>config</module>
-        <module>cxfhttp</module>
         <module>subsystem</module>
         <module>feature</module>
         <module>catalog</module>

@@ -88,27 +88,6 @@ public class SecurityUtils {
             + "</web-app>"
     ;
 
-    public static void addSpringXmlWs(WebArchive archive, String endpointUrl) {
-        addSpringXml(archive, "cxfws-camel-context.xml", endpointUrl);
-    }
-    public static void addSpringXmlRs(WebArchive archive, String endpointUrl) {
-        addSpringXml(archive, "cxfrs-camel-context.xml", endpointUrl);
-    }
-    public static void addSpringXml(WebArchive archive, String file, String endpointUrl) {
-        final StringBuilder sb = new StringBuilder();
-        try {
-            FileUtils.copy(
-                    SecurityUtils.class.getClassLoader().getResource("cxf/secure/spring/"+ file), sb);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        final String xml = sb.toString()
-                .replace("${SPRING_CONSUMER_ENDPOINT_ADDRESS}", endpointUrl)
-                .replace("${SERVER_TRUST_STORE_PATH}", EnvironmentUtils.getWildFlyHome() + "/standalone/configuration/" + SERVER_TRUSTSTORE)
-                .replace("${SERVER_TRUST_STORE_PASSWORD}", CLIENT_CERT_KEYSTORE_PASSWORD);
-        archive.addAsWebInfResource(new StringAsset(xml), file);
-    }
-
     private static void copy(String fileName, Path targetDirectory) throws IOException {
         FileUtils.copy(SecurityUtils.class.getClassLoader().getResource("security/keys/" + fileName),
                 targetDirectory.resolve(fileName));

@@ -48,8 +48,6 @@ include::camel-couchdb.adoc[]
 
 include::camel-crypto.adoc[]
 
-include::camel-cxf.adoc[]
-
 include::camel-digitalocean.adoc[]
 
 include::camel-disruptor.adoc[]

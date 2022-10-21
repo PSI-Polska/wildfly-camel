@@ -244,34 +244,6 @@
         <include artifact=":geronimo-ws-metadata_2.0_spec" />
     </module>
 
-    <module name="org.apache.cxf" skip="true">
-        <include artifact=":cxf-api" />
-        <include artifact=":cxf-core" />
-        <include artifact=":cxf-rt-features-logging"/>
-        <include artifact="com.sun.xml.messaging.saaj:saaj-impl"/>
-    </module>
-
-    <module name="org.apache.cxf.impl" skip="true">
-        <include artifact=":cxf-rt-bindings-soap" />
-        <include artifact=":cxf-rt-bindings-xml" />
-        <include artifact=":cxf-rt-databinding-jaxb" />
-        <include artifact=":cxf-rt-frontend-jaxws" />
-        <include artifact=":cxf-rt-frontend-simple" />
-        <include artifact=":cxf-rt-management" />
-        <include artifact=":cxf-rt-security" />
-        <include artifact=":cxf-rt-transports-http" />
-        <include artifact=":cxf-rt-transports-jms" />
-        <include artifact=":cxf-rt-transports-local" />
-        <include artifact=":cxf-rt-ws-addr" />
-        <include artifact=":cxf-rt-ws-mex" />
-        <include artifact=":cxf-rt-ws-policy" />
-        <include artifact=":cxf-rt-ws-rm" />
-        <include artifact=":cxf-rt-ws-security" />
-        <include artifact=":cxf-rt-wsdl" />
-        <include artifact=":cxf-services-sts-core" />
-        <include artifact=":cxf-services-ws-discovery-api" />
-    </module>
-
     <module name="org.apache.log4j" skip="true">
         <include artifact="org.apache.log4j:" />
         <include artifact="log4j:" />

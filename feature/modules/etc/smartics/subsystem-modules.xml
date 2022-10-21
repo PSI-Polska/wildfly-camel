@@ -74,7 +74,6 @@
             <module name="org.springframework.context"/>
             <module name="org.springframework.tx"/>
             <module name="org.wildfly.extension.camel.cdi" services="export" optional="true"/>
-            <module name="org.wildfly.extension.camel.cxf.undertow" services="export"/>
             <module name="org.wildfly.extension.camel.security" export="true" services="export" optional="true"/>
             <module name="org.wildfly.extension.camel.undertow" services="export" optional="true"/>
             <module name="org.wildfly.security.elytron"/>
@@ -115,31 +114,12 @@
         <dependencies>
             <module name="javax.api"/>
             <module name="org.apache.camel.core"/>
-            <module name="org.apache.cxf.impl"/>
             <module name="org.jboss.as.server"/>
             <module name="org.jboss.as.network"/>
             <module name="org.jboss.modules"/>
             <module name="io.undertow.core" />
             <module name="io.undertow.servlet"/>
             <module name="org.slf4j"/>
-        </dependencies>
-    </module>
-
-    <module name="org.wildfly.extension.camel.cxf.undertow">
-        <include artifact=":wildfly-camel-cxf-undertow" />
-        <dependencies>
-            <module name="javax.servlet.api"/>
-            <module name="io.undertow.core" />
-            <module name="io.undertow.servlet" />
-            <module name="org.apache.camel.component.cxf"/>
-            <module name="org.apache.camel.core"/>
-            <module name="org.apache.cxf.impl" />
-            <module name="org.jboss.as.security" />
-            <module name="org.jboss.as.server"/>
-            <module name="org.picketbox" />
-            <module name="org.slf4j"/>
-            <module name="org.wildfly.security.elytron" />
-            <module name="javax.api"/>
         </dependencies>
     </module>
 

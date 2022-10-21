@@ -34,9 +34,7 @@ public class UndertowSubsystemExtension implements CamelSubsytemExtension {
 
     @Override
     public Component resolveComponent(String name, SubsystemState subsystemState) {
-        if (name.equals("cxf")) {
-            return new WildFlyCxfComponent();
-        } else if (name.equals("undertow")) {
+        if (name.equals("undertow")) {
             return new WildFlyUndertowComponent(subsystemState.getRuntimeState());
         }
         return null;

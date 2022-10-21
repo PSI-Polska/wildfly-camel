@@ -10,7 +10,6 @@ microprofile-health
 spring-main
 spring-security
 spring-xml
-test-junit5
 
 [planned]
 
@@ -56,6 +55,7 @@ resourceresolver-github
 rxjava
 shiro
 swagger-java
+test-junit5
 threadpoolfactory-vertx
 tracing
 undertow-spring-security

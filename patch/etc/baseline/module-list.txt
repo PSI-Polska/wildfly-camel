@@ -231,8 +231,6 @@
 /org/apache/camel/component/couchdb/main/lightcouch-0.2.0.jar
 /org/apache/camel/component/crypto/main/camel-crypto-3.4.0.jar
 /org/apache/camel/component/csv/main/camel-csv-3.4.0.jar
-/org/apache/camel/component/cxf/main/camel-cxf-3.4.0.jar
-/org/apache/camel/component/cxf/main/camel-cxf-transport-3.4.0.jar
 /org/apache/camel/component/digitalocean/main/camel-digitalocean-3.4.0.jar
 /org/apache/camel/component/digitalocean/main/digitalocean-api-client-2.17.jar
 /org/apache/camel/component/disruptor/main/camel-disruptor-3.4.0.jar
@@ -520,13 +518,6 @@
 /org/apache/curator/main/curator-framework-4.3.0.jar
 /org/apache/curator/main/curator-recipes-4.3.0.jar
 /org/apache/curator/main/curator-x-discovery-4.3.0.jar
-/org/apache/cxf/ext/main/cxf-rt-frontend-jaxrs-3.3.6.jar
-/org/apache/cxf/ext/main/cxf-rt-rs-client-3.3.6.jar
-/org/apache/cxf/ext/main/cxf-rt-rs-extension-providers-3.3.6.jar
-/org/apache/cxf/ext/main/cxf-rt-rs-json-basic-3.3.6.jar
-/org/apache/cxf/ext/main/cxf-rt-rs-security-jose-3.3.6.jar
-/org/apache/cxf/ext/main/cxf-rt-rs-security-jose-jaxrs-3.3.6.jar
-/org/apache/cxf/ext/main/cxf-rt-rs-security-oauth2-3.3.6.jar
 /org/apache/derby/main/derby-10.14.2.0.jar
 /org/apache/directory/main/api-asn1-api-2.0.0.AM1.jar
 /org/apache/directory/main/api-asn1-ber-2.0.0.AM1.jar

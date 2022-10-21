@@ -5,8 +5,6 @@ browse
 class
 controlbus
 cql
-cxf
-cxfrs
 dataformat
 dataset
 dataset-test
@@ -117,6 +115,8 @@ couchbase
 couchdb
 cron
 crypto                                              #deprecated
+cxf
+cxfrs
 debezium-db2
 debezium-mongodb
 debezium-mysql

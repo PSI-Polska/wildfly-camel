@@ -80,11 +80,6 @@
             </dependency>
             <dependency>
                 <groupId>org.wildfly.camel</groupId>
-                <artifactId>wildfly-camel-cxf-undertow</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.wildfly.camel</groupId>
                 <artifactId>wildfly-camel-subsystem-core</artifactId>
                 <version>${project.version}</version>
             </dependency>

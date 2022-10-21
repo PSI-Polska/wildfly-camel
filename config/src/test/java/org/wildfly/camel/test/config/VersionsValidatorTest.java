@@ -76,7 +76,6 @@ public class VersionsValidatorTest {
         mapping.put("version.camel.squareup.okio", "squareup-okio-version");
 
         mapping.put("version.wildfly.arquillian", "version.org.wildfly.arquillian");
-        mapping.put("version.wildfly.cxf", "version.org.apache.cxf");
         mapping.put("version.wildfly.fasterxml.jackson", "version.com.fasterxml.jackson");
         mapping.put("version.wildfly.hibernate", "version.org.hibernate");
         mapping.put("version.wildfly.infinispan", "version.org.infinispan");
