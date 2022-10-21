@@ -75,7 +75,7 @@ public final class CxfDefaultBusHandler implements ContextCreateHandler {
                 this.bus = bus;
             } else {
                 throw new IllegalStateException(String.format("Expected %s returning %s, found %s", Bus.class.getName(),
-                        UndertowDestinationFactory.class.getName(), httpDestinationFactory.getClass().getName()));
+                        UndertowDestinationFactory.class.getName(), httpDestinationFactory == null ? "null" : httpDestinationFactory.getClass().getName()));
             }
         }
 

@@ -43,7 +43,6 @@ sftp
 spring-batch
 spring-event
 spring-ldap
-spring-redis
 spring-ws
 sql
 sql-stored
@@ -291,6 +290,7 @@ splunk-hec
 spring-integration
 spring-jdbc
 spring-rabbitmq
+spring-redis
 ssh
 stax
 stitch

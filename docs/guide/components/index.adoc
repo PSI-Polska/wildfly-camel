@@ -28,8 +28,6 @@ include::camel-box.adoc[]
 
 include::camel-braintree.adoc[]
 
-include::camel-caffeine.adoc[]
-
 include::camel-cassandra.adoc[]
 
 include::camel-cdi.adoc[]
@@ -265,8 +263,6 @@ include::camel-spring.adoc[]
 include::camel-spring-batch.adoc[]
 
 include::camel-spring-ldap.adoc[]
-
-include::camel-spring-redis.adoc[]
 
 include::camel-spring-ws.adoc[]
 

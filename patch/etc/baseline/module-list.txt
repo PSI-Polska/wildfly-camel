@@ -39,7 +39,6 @@
 /com/fasterxml/jackson/module/afterburner/main/jackson-module-afterburner-2.10.4.jar
 /com/fasterxml/jackson/module/jsonSchema/main/jackson-module-jsonSchema-2.10.4.jar
 /com/fasterxml/woodstox/main/woodstox-core-6.0.3.jar
-/com/github/ben-manes/caffeine/fuse/caffeine-2.8.4.jar
 /com/github/docker/java/main/docker-java-3.2.1.jar
 /com/github/docker/java/main/docker-java-api-3.2.1.jar
 /com/github/docker/java/main/docker-java-core-3.2.1.jar
@@ -216,8 +215,6 @@
 /org/apache/camel/component/box/main/camel-box-api-3.4.0.jar
 /org/apache/camel/component/braintree/main/braintree-java-2.108.0.jar
 /org/apache/camel/component/braintree/main/camel-braintree-3.4.0.jar
-/org/apache/camel/component/caffeine/main/camel-caffeine-3.4.0.jar
-/org/apache/camel/component/caffeine/main/camel-caffeine-lrucache-3.4.0.jar
 /org/apache/camel/component/cassandra/main/camel-cassandraql-3.4.0.jar
 /org/apache/camel/component/cassandra/main/cassandra-driver-core-3.7.2.jar
 /org/apache/camel/component/cdi/main/camel-cdi-3.4.0.jar
@@ -398,7 +395,6 @@
 /org/apache/camel/component/splunk/main/org.apache.servicemix.bundles.splunk-1.6.5.0_1.jar
 /org/apache/camel/component/spring/batch/main/camel-spring-batch-3.4.0.jar
 /org/apache/camel/component/spring/ldap/main/camel-spring-ldap-3.4.0.jar
-/org/apache/camel/component/spring/redis/main/camel-spring-redis-3.4.0.jar
 /org/apache/camel/component/spring/security/main/camel-spring-security-3.4.0.jar
 /org/apache/camel/component/spring/ws/main/camel-spring-ws-3.4.0.jar
 /org/apache/camel/component/sql/main/camel-sql-3.4.0.jar

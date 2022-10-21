@@ -44,17 +44,6 @@
         <include artifact=":jackson-datatype-jsr310" />
     </module>
 
-    <module name="com.github.ben-manes.caffeine" inherit-slot="false" slot="fuse">
-        <properties>
-            <property name="jboss.api" value="private"/>
-        </properties>
-        <include artifact="com.github.ben-manes.caffeine:caffeine" />
-        <apply-to-dependencies skip="true">
-            <include module="com.google.code.findbugs" />
-            <include module="com.google.errorprone" />
-        </apply-to-dependencies>
-    </module>
-
     <module name="com.github.spullara.mustache" inherit-slot="false" slot="fuse">
         <properties>
             <property name="jboss.api" value="private"/>

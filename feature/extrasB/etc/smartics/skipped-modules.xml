@@ -78,6 +78,7 @@
         <include artifact="org.apache.camel:camel-management-api" />
         <include artifact="org.apache.camel:camel-support" />
         <include artifact="org.apache.camel:camel-util" />
+        <include artifact="org.apache.camel:camel-caffeine-lrucache" />
     </module>
 
     <module name="org.apache.logging.log4j" skip="true">

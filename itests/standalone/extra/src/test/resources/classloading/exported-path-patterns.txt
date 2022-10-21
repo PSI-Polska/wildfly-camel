@@ -10,7 +10,6 @@
 	^com/codahale(.*)
 	^com/github/dockerjava(.*)
     ^com/github/dozermapper/core(.*)
-	^com/github/benmanes/caffeine(.*)
     ^com/googlecode/jsendnsca(.*)
 	^com/google/api/client(.*)
 	^com/google/api/services/bigquery(.*)
