@@ -41,6 +41,4 @@ include::languages/index.adoc[]
 
 include::cloud/index.adoc[]
 
-include::security/index.adoc[]
-
 include::developer/index.adoc[]

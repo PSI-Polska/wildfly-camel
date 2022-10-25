@@ -80,10 +80,6 @@
         </dependency>
         <dependency>
             <groupId>org.wildfly.camel</groupId>
-            <artifactId>wildfly-camel-subsystem-security</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.wildfly.camel</groupId>
             <artifactId>wildfly-camel-subsystem-undertow</artifactId>
         </dependency>
 
