@@ -427,28 +427,6 @@
         </dependencies>
     </module>
 
-    <module name="org.apache.camel.component.spring.security">
-        <include artifact="org.apache.camel:camel-spring-security" />
-        <apply-to-dependencies skip="true">
-            <include module="org.apache.camel.apt" />
-            <include module="org.springframework.boot" />
-        </apply-to-dependencies>
-        <dependencies>
-            <module name="javax.api"/>
-            <module name="org.slf4j"/>
-            <module name="org.springframework.security" export="true">
-                <exports>
-                    <include path="org/springframework/security/access" />
-                    <include path="org/springframework/security/authentication" />
-                    <include path="org/springframework/security/core/authority" />
-                    <include path="org/springframework/security/core/userdetails" />
-                    <include path="org/springframework/security/core" />
-                    <exclude path="org/springframework/security/**" />
-                </exports>
-            </module>
-        </dependencies>
-    </module>
-
     <module name="org.apache.camel.component.spring.ws">
         <include artifact="org.apache.camel:camel-spring-ws" />
         <apply-to-dependencies skip="true">
