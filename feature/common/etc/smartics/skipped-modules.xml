@@ -282,11 +282,11 @@
         <include artifact="io.netty:netty-transport-native-unix-common" />
     </module-->
 
-    <module name="io.opentracing" skip="true">
+    <!--module name="io.opentracing" skip="true">
         <include artifact="io.opentracing:opentracing-util" />
         <include artifact="io.opentracing.opentracing-api" />
         <include artifact="io.opentracing.opentracing-noop" />
-    </module>
+    </module-->
 
     <module name="io.sundr" skip="true">
         <include artifact="io.sundr:builder-annotations" />

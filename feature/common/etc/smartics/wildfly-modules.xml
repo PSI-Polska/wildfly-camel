@@ -336,6 +336,10 @@
         <include artifact=":jboss-logging"/>
     </module>
 
+    <module name="org.jboss.resteasy.resteasy-client" skip="true">
+        <include artifact=":resteasy-client" />
+    </module>
+
     <module name="org.jboss.logging.jul-to-slf4j-stub"  skip="true">
         <include artifact="org.slf4j:jul-to-slf4j" />
     </module>

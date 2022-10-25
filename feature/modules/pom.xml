@@ -343,6 +343,17 @@
             <type>zip</type>
         </dependency>
         <dependency>
+            <groupId>org.wildfly.core</groupId>
+            <artifactId>wildfly-core-galleon-pack</artifactId>
+            <type>zip</type>
+        </dependency>
+        <dependency>
+            <groupId>org.wildfly</groupId>
+            <artifactId>wildfly-servlet-galleon-pack</artifactId>
+            <type>zip</type>
+        </dependency>
+
+        <dependency>
             <groupId>io.hawt</groupId>
             <artifactId>hawtio-wildfly</artifactId>
             <type>war</type>
