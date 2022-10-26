@@ -8,7 +8,6 @@ health
 main
 microprofile-health
 spring-main
-spring-security
 spring-xml
 
 [planned]
@@ -54,6 +53,7 @@ resilience4j
 resourceresolver-github
 rxjava
 shiro
+spring-security
 swagger-java
 test-junit5
 threadpoolfactory-vertx

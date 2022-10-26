@@ -870,6 +870,10 @@
         </dependencies>
     </module>
 
+    <module name="org.aesh">
+        <include artifact="org.aesh:aesh" />
+    </module>
+
     <module name="io.perfmark.api" >
         <properties>
             <property name="jboss.api" value="private"/>

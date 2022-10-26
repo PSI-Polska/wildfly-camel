@@ -27,6 +27,13 @@
         <include artifact=":jackson-dataformat-smile" />
     </module>
 
+    <module name="org.aesh">
+        <properties>
+            <property name="jboss.api" value="private"/>
+        </properties>
+        <include artifact="org.aesh:aesh" />
+    </module>
+
     <module name="org.apache.lucene" inherit-slot="false" slot="8.0">
         <include artifact="org.apache.lucene:lucene-analyzers-common" />
         <include artifact="org.apache.lucene:lucene-backward-codecs" />
