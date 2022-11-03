@@ -30,12 +30,12 @@ import org.wildfly.extras.config.LayerConfig;
 
 public final class WildFlyCamelConfigPlugin implements ConfigPlugin {
 
-    public static final Namespace NS_DOMAIN_130 = Namespace.getNamespace("urn:jboss:domain:13.0");
+    public static final Namespace NS_DOMAIN_190 = Namespace.getNamespace("urn:jboss:domain:19.0");
 
-    public static final Namespace[] NS_DOMAINS = new Namespace[] { NS_DOMAIN_130 };
+    public static final Namespace[] NS_DOMAINS = new Namespace[] {NS_DOMAIN_190};
 
     public static final Namespace NS_CAMEL = Namespace.getNamespace("urn:jboss:domain:camel:1.0");
-    public static final Namespace NS_SECURITY = Namespace.getNamespace("urn:jboss:domain:security:2.0");
+    public static final Namespace NS_SECURITY = Namespace.getNamespace("urn:wildfly:elytron:15.1");
 
     @Override
     public String getConfigName() {
@@ -134,12 +134,12 @@ public final class WildFlyCamelConfigPlugin implements ConfigPlugin {
                 Element domains = security.getChild("security-domains", NS_SECURITY);
                 ConfigSupport.assertExists(domains, "Did not find the <security-domains> element");
                 Element domain = ConfigSupport.findElementWithAttributeValue(domains, "security-domain", "name", "hawtio-domain", NS_SECURITY);
-                if (enable && domain == null) {
-                    URL resource = WildFlyCamelConfigPlugin.class.getResource("/hawtio-security-domain.xml");
-                    domains.addContent(new Text("    "));
-                    domains.addContent(ConfigSupport.loadElementFrom(resource));
-                    domains.addContent(new Text("\n            "));
-                }
+//                if (enable && domain == null) {
+//                    URL resource = WildFlyCamelConfigPlugin.class.getResource("/hawtio-security-domain.xml");
+//                    domains.addContent(new Text("    "));
+//                    domains.addContent(ConfigSupport.loadElementFrom(resource));
+//                    domains.addContent(new Text("\n            "));
+//                }
                 if (!enable && domain != null) {
                     domain.getParentElement().removeContent(domain);
                 }
