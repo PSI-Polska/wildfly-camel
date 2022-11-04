@@ -75,6 +75,7 @@
 
         <!-- WildFly versions -->
         <version.wildfly>26.1.2-1-PSI</version.wildfly>
+        <version.wildfly.core>18.1.2-1-PSI</version.wildfly.core>
         <version.wildfly.arquillian>3.0.1.Final</version.wildfly.arquillian>
         <version.wildfly.fasterxml.jackson>2.14.0-rc1</version.wildfly.fasterxml.jackson>
         <version.wildfly.hibernate>5.3.28.Final</version.wildfly.hibernate>
@@ -160,6 +161,7 @@
         <module>catalog</module>
         <module>testenricher</module>
         <module>itests</module>
+        <module>patch</module>
     </modules>
 
     <!-- Build -->
